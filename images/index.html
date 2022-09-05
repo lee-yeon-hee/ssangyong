@@ -1,0 +1,4201 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta property="og:title" content="Ssangyong Motor Company" />
+<meta id="fb_description" property="og:description" content="쌍용자동차 쇼룸 - TIVOLI">
+<meta id="fb_image" property="og:image" content="http://www.smotor.com/kr/images/tivoli/tivoli_sns.png">
+<meta id="fb_url" property="og:url" content="http://www.smotor.com/kr/showroom/VERYNEWTIVOLI/index.html">
+<meta property="og:type" content="website" />
+<title>쌍용자동차 </title>
+<link rel="shortcut icon" href="/kr/favicon.ico">
+<!--<link rel="stylesheet" href="/kr/css/site/new_gnb.css" />-->
+<link rel="stylesheet" href="/kr/css/site/threesixty.css" />
+<link rel="stylesheet" href="/kr/css/site/showroom_verynewtivoli.css" />
+<!-- main -->
+<script type="text/javascript" src="/kr/js/site/jquery.js"></script>
+<script type="text/javascript" src="/kr/js/site/threesixty.min.js"></script> 
+<script type="text/javascript" src="/kr/js/site/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="/kr/js/site/jquery.SmoothScrollWheel.js"></script>
+<script type="text/javascript" src="/kr/js/site/jquery.easing.js"></script>
+<script type="text/javascript" src="/kr/js/site/selectivizr-min.js"></script>
+<script type="text/javascript" src="/kr/js/site/plugins.js"></script>
+<script type="text/javascript" src="/kr/js/site/horizontal.js"></script>
+<script type="text/javascript" src="/kr/js/site/sly.js"></script>
+<script type="text/javascript" src="/kr/js/site/verynewtivoli.js"></script>
+<!--<script type="text/javascript" src="/kr/js/site/ext_vr_tivoli_n.js"></script> -->
+<script type="text/javascript" src="/kr/js/site/html2canvas.js"></script>
+<script>
+    $(document).ready(function(){
+		 var aDagent = navigator.userAgent.toLowerCase();
+		  if(navigator.userAgent.indexOf('Mobile') != -1){  
+			   window.location.replace('http://m.smotor.com/showroom/tivoli/photo/index.html');
+			   }
+		
+         $(".snsBtn").click(function(e){
+            e.preventDefault();
+           
+            var _this = $(this);
+            var sns_type = _this.attr('alt');
+            var href = "http://www.smotor.com/kr/showroom/VERYNEWTIVOLI/index.html";
+            var title = '쌍용자동차 쇼룸 - 티볼리';
+            var loc = "";
+            var img = $("meta[property='og:image']").attr('content');
+       var w = 655;
+       var h = 424
+               
+                if( sns_type == 'Facebook' ) {
+        loc = 'http://www.facebook.com/sharer/sharer.php?u='+href+'&t='+title;
+                }
+                else if ( sns_type == 'Twitter' ) {
+        loc = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(title) + '&url=' + encodeURIComponent(href);
+        w = 545;
+        h = 444;
+            }
+            else {
+               return false;
+            }
+            window.open(loc, "sns", "width=" + w + ",height=" + h);
+            return false;
+
+         });
+      });  
+	  
+
+		
+			  
+  </script></head>
+<body>
+<div id="wrap">
+
+    <link rel="stylesheet" href="/kr/css/site/gnb_20160624.css " />
+  <script type="text/javascript" src="/kr/js/site/common_20160624.js"></script>
+    <script type="text/javascript" src="/kr/js/site/ext_vr_verynewtivoli.js"></script>
+  <!-- STR header -->
+  <div id="header">
+    <div class="head_top">
+        <!-- STR head_navi -->
+        <div class="head_navi">
+            <ul>
+                <li class="h_navi7"><a href="https://infoconn.smotor.com/" class="fontno">INFOCONN</a></li>
+                <li class="h_navi1"><a href="/kr/index.html" class="fontno">홈</a></li>
+                <li class="h_navi2"><iframe src="/include/top_login_main.jsp" style="margin-top:0px; width:43px; height:12px;" frameborder="" scrolling="no" allowtransparency="true"></iframe></li>
+                <li class="h_navi3"><iframe src="/include/top_join_main.jsp" style="margin-top:0px; width:53px; height:12px;" frameborder="" scrolling="no" allowtransparency="true"></iframe></li>
+                <li class="h_navi4"><a href="http://www.smotor.com/en/index.html" target="_blank" class="fontno">GLOBAL</a></li>
+                <li class="h_navi5"><a href="/kr/cs/index.html" class="fontno">고객센터</a></li>
+                <li class="h_navi6"><a href="http://allways.smotor.com" class="fontno" target="_blank">기업블로그</a></li>
+                <li class="t_search_area">
+        <fieldset>
+        <legend>통합검색</legend>
+		<script type="text/javascript" src="/kr/js/xss_filter.js"></script> <!-- XSS 필터 추가 181019 전지원 -->
+            <form id="kit_all_search" onSubmit="return allSearchSubmit();" action="http://www.smotor.com/kr/common/search.html">
+                <input type="text" id="allSearch" class="t_search_ipt" name="icss:search:query" title="검색어를 입력해주세요" />
+                <input type="hidden" name="url" id='all_url' value="jsp/search.jsp"/>
+                <input type="hidden" name="icss:search:query:field" id = 'allField' value="all"/>
+                <button class="t_search_btn" onclick="allSearchImageMapFunc()"><span class="fontno">검색</span></button>
+            </form>
+               </fieldset>
+                </li>
+                <script type="text/javascript">
+                    function allSearchImageMapFunc() {
+						
+						var str = document.getElementById('allSearch').value;
+						
+						var valid_str = xss_filter(str);<!-- XSS 필터 추가 181019 전지원 -->
+						//alert(valid_str);
+						$("input[id='allSearch']").val(valid_str);
+                        if (allSearchSubmit()){
+                            // alert("준비중입니다2.");
+						    
+                            }
+                    }
+
+                    function allSearchSubmit() {
+					
+                        var result = kit.search.formcheck(); <!-- 181019 전지원 메모 : KIT 오류나서 아래로 하나도 안탄다 4,5,6 안뜸 -->
+
+                        if (result) {
+
+                            document.getElementById('allSearch').name = 'icss:search:query';
+                            document.getElementById('allField').name = 'icss:search:query:field';
+                            document.getElementById('all_url').name = 'url';
+                        }
+
+                        return result;
+                    }
+                </script>
+
+            </ul>
+      </div>
+        <!-- END head_navi -->
+    </div>
+    <div class="head_bottom">
+        <div class="head_main">
+            <div class="main_logo07"><a href="http://www.smotor.com/kr/index.html"><img src="/kr/images/20160624/160624_gnb/logo.jpg" alt="쌍용자동차"/></a></div>
+            <!-- STR Left gnb -->
+            <ul class="gnb_1">
+                <!-- STR 차량정보 -->
+                <li class="depth1">
+                    <a href="http://www.smotor.com/kr/showroom" class="gnb_btn1"><span class=" gnb_hover fontno">차량정보</span></a>
+                    <div class="">
+                        <ul class="gnb_car">
+<li class="no_line">
+                                <a href="/kr/showroom/torres" class="">
+                                    <span class="car_img"><img src="/kr/images/20160624/160624_common/car_torres_off.jpg" alt="토레스"/></span>
+                                    <span class="car_name c_torres fontno">TORRES</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/kr/showroom/TIVOLI" class="">
+                                    <span class="car_img"><img src="/kr/images/20160624/160624_common/car_tivoli_off.jpg" alt="티볼리"/></span>
+                                    <span class="car_name c_tivoli fontno">TIVOLI</span>
+                                </a>
+                            </li>
+
+
+                            <li>
+                                <a href="/kr/showroom/TIVOLI_AIR/" class="">
+                                    <span class="car_img"><img src="/kr/images/20160624/160624_common/car_tivoliair_off.jpg" alt="티볼리에어"/></span>
+                                    <span class="car_name c_tivoliair fontno">티볼리에어 </span>
+                                </a>
+                            </li>
+
+                                     
+
+                            <li>
+                                <a href="/kr/showroom/korando/" class="">
+                                    <span class="car_img"><img src="/kr/images/20160624/160624_common/car_korandoC_off.jpg" alt="코란도"/></span>
+                                    <span class="car_name c_korandoc fontno">코란도</span>
+                                </a>
+                            </li>
+							<li>
+                                <a href="/kr/showroom/korandoemotion/index.html" class="">
+                                    <span class="car_img"><img src="/kr/images/20160624/160624_common/car_emotion_off.jpg" alt="코란도이모션"/></span>
+                                    <span class="car_name c_korandoe fontno">코란도 이모션</span>
+                                </a>
+                            </li>
+  <li>
+							<a href="/kr/showroom/REXTON_SPORTS" class="">
+								<span class="car_img"><img src="/kr/images/20160624/160624_common/car_Q200_off.jpg" alt="렉스턴 스포츠"/></span>
+								<span class="car_name c_korandos fontno">렉스턴 스포츠</span>
+							</a>
+						</li>
+
+
+  <li> 
+							<a href="/kr/showroom/KHAN/" class="">
+								<span class="car_img"><img src="/kr/images/20160624/160624_common/car_Q201_off.jpg" alt="렉스턴 스포츠 칸"/></span>
+								<span class="car_name c_khan fontno">렉스턴 스포츠 칸</span>
+							</a>
+						</li>
+					                           <li >
+                                <a href="/kr/showroom/REXTON" class="">
+                                    <span class="car_img"><img src="/kr/images/20160624/160624_common/car_g4rexton_off.jpg" alt="렉스턴"/></span>
+                                    <span class="car_name c_g4rexton fontno">REXTON</span>
+                                </a>
+                            </li>
+                                             
+                           
+                        </ul>
+                    </div>
+                </li>
+                <!-- END 차량정보 -->
+                <!-- STR 구매정보 -->
+                <li class="depth1">
+                    <a href="http://www.smotor.com/kr/purchase/index.html" class="gnb_btn2"><span class=" gnb_hover fontno">구매정보</span></a>
+                    <div class="">
+                        <ul class="gnb_menu_list gnb_buy_info">
+                            <li>
+                                <ul class="g_buyinfo_01">
+                                    <li>
+                                       <span class="fontno gnb_list_title gnb_list_title1">견적서비스</span>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/purchase/service/s_est/index.html" class="g_buy101">
+                                            <span class="fontno">간편견적</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/purchase/service/customize/index.html" class="g_buy102">
+                                            <span class="fontno">맞춤견적</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/purchase/service/comp/index.html" class="g_buy103">
+                                            <span class="fontno">비교견적</span>
+                                        </a>
+                                    </li>
+<!--                                    <li>
+                                        <a href="/kr/purchase/service/pricelist/index.html" class="g_buy104">
+                                            <span class="fontno">가격표</span>
+                                        </a>
+                                    </li>-->
+<!--                                    <li>
+                                        <a href="/kr/purchase/service/re_est/index.html" class="g_buy105">
+                                            <span class="fontno">이달의 추천견적</span>
+                                        </a>
+                                    </li>
+-->
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="g_buyinfo_02">
+                                    <li>
+                                        <span class="fontno gnb_list_title gnb_list_title2">판매네트크안내</span>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/purchase/deal_guide/exhibition/index.html" class="g_buy201">
+                                            <span class="fontno">전시장찾기</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/purchase/deal_guide/ehbt_car/index.html" class="g_buy202">
+                                            <span class="fontno">전시차찾기</span>
+                                        </a>
+                                    </li>
+                                    <!--<li>
+                                        <a href="/kr/purchase/deal_guide/news/index.html" class="g_buy203">
+                                            <span class="fontno">전시장 소식</span>
+                                        </a>
+                                    </li>-->
+                                    <li>
+                                        <a href="/kr/purchase/deal_guide/rec/rec/index.html" class="g_buy204">
+                                            <span class="fontno">전시장 개설문의</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="g_buyinfo_03">
+                                    <li>
+                                        <span class="fontno gnb_list_title gnb_list_title3">시승신청</span>
+                                    </li>
+<!--                                   
+                                     <li>
+                                        <a href="/kr/purchase/td_center/request/index.html" class="g_buy301">
+                                            <span class="fontno">서울 강남 시승센터</span>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="/kr/purchase/td_center/newcar/index.html" class="g_buy302">
+                                            <span class="fontno">스마트 시승센터</span>
+                                        </a>
+                                    </li>
+-->                            
+                                    <li>
+                                        <a href="/kr/purchase/td_center/newcar/index.html" class="g_buy301">
+                                            <span class="fontno">스마트 시승센터</span>
+                                        </a>
+                                    </li>        
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="g_buyinfo_04">
+                                    <li>
+                                        <span class="fontno gnb_list_title gnb_list_title4">상담신청</span>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/purchase/con_req/si_req/index.html" class="g_buy401">
+                                            <span class="fontno">간단신청</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/purchase/con_req/orth_req/index.html" class="g_buy402">
+                                            <span class="fontno">맞춤신청</span>
+                                        </a>
+                                    </li>
+<!--                                    <li>
+                                        <a href="/kr/purchase/con_req/catal/index.html" class="g_buy403">
+                                            <span class="fontno">카탈로그 신청</span>
+                                        </a>
+                                    </li>-->
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="g_buyinfo_05">
+                                    <li>
+                                        <span class="fontno gnb_list_title gnb_list_title5">구매조건</span>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/purchase/pur_con/this_month/offers/index.html" class="g_buy501">
+                                            <span class="fontno">이달의 구매조건</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/purchase/pur_con/email/index.html" class="g_buy502">
+                                            <span class="fontno">E-mail 신청하기</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+<!--                            <li>
+                                <ul class="g_buyinfo_06">
+                                    <li>
+                                        <span class="fontno gnb_list_title gnb_list_title6">시승기</span>
+                                    </li>
+								    <li>
+                                        <a href="http://www.smotor.com/kr/purchase/drive/search.html?icss%3Asearch%3Aaf_carname=%eb%a0%89%ec%8a%a4%ed%84%b4%ec%8a%a4%ed%8f%ac%ec%b8%a0&icss%3Asearch%3Aaf_carname%3Aop=and&icss%3Asearch%3Aquery=&icss%3Asearch%3Acatid=sma25&icss%3Asearch%3Aquery%3Afield=all&url=jsp%2Fsearch03.jsp" class="g_buy604">
+                                            <span class="fontno">렉스턴스포츠</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.smotor.com/kr/purchase/drive/search.html?icss%3Asearch%3Aaf_carname=G4%EB%A0%89%EC%8A%A4%ED%84%B4&icss%3Asearch%3Aaf_carname%3Aop=and&icss%3Asearch%3Aquery=G4%EB%A0%89%EC%8A%A4%ED%84%B4&icss%3Asearch%3Acatid=sma25&icss%3Asearch%3Aquery%3Afield=all&url=jsp%2Fsearch03.jsp" class="g_buy602">
+                                            <span class="fontno">G4 렉스턴</span>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="http://www.smotor.com/kr/purchase/drive/search.html?icss%3Asearch%3Aaf_carname=%ED%8B%B0%EB%B3%BC%EB%A6%AC&icss%3Asearch%3Aaf_carname%3Aop=and&icss%3Asearch%3Aquery=&icss%3Asearch%3Acatid=sma25&icss%3Asearch%3Aquery%3Afield=all&url=jsp%2Fsearch03.jsp" class="g_buy601">
+                                            <span class="fontno">티볼리</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.smotor.com/kr/purchase/drive/search.html?icss%3Asearch%3Aaf_carname=%EC%BD%94%EB%9E%80%EB%8F%84&icss%3Asearch%3Aaf_carname%3Aop=and&icss%3Asearch%3Aquery=&icss%3Asearch%3Acatid=sma25&icss%3Asearch%3Aquery%3Afield=all&url=jsp%2Fsearch03.jsp" class="g_buy603">
+                                            <span class="fontno">코란도</span>
+                                        </a>
+                                    </li>
+                               
+                                    <li>
+                                        <a href="http://www.smotor.com/kr/purchase/drive/search.html?icss%3Asearch%3Aaf_carname=%EC%BD%94%EB%9E%80%EB%8F%84%ED%88%AC%EB%A6%AC%EC%8A%A4%EB%AA%A8&icss%3Asearch%3Aaf_carname%3Aop=and&icss%3Asearch%3Aquery=&icss%3Asearch%3Acatid=sma25&icss%3Asearch%3Aquery%3Afield=all&url=jsp%2Fsearch03.jsp" class="g_buy605">
+                                            <span class="fontno">코란도 투리스모</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+-->
+                            <li>
+                                <ul class="g_buyinfo_07">
+                                    <li>
+                                        <span class="fontno gnb_list_title gnb_list_title7">구매가이드</span>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.smotor.com/kr/purchase/guide/procedure/pur_pro/index.html" class="g_buy701">
+                                            <span class="fontno">구매절차/할부정보</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/purchase/guide/tax/group/index.html" class="g_buy702">
+                                            <span class="fontno">세금정보</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/purchase/guide/insurance_guide/insur_type/index.html" class="g_buy703">
+                                            <span class="fontno">보험안내</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/purchase/guide/disPer_pur/exemption/index.html" class="g_buy704">
+                                            <span class="fontno">장애인구매</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.smotor.com/kr/purchase/guide/reg_guide/registration/index.html" class="g_buy705">
+                                            <span class="fontno">등록안내/유의사항</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <!-- END 구매정보 -->
+                <!-- STR 서비스 -->
+                <li class="depth1">
+                    <a href="http://www.smotor.com/kr/service/index.html" class="gnb_btn3"><span class=" gnb_hover fontno">서비스</span></a>
+                    <div>
+                        <ul class="gnb_menu_list gnb_service">
+                            <li>
+                                <ul class="g_buyinfo_01">
+                                    <li>
+                                        <span class="fontno gnb_list_title gnb_list_title8">서비스안내</span>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.smotor.com/kr/service/service/remember/index.html" class="g_buy801">
+                                            <span class="fontno">리맴버서비스</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/service/service/acs/ac/12762_index.html" class="g_buy802">
+                                            <span class="fontno">오토카드서비스</span>
+                                        </a>
+                                    </li>
+                                    <!--<li>
+                                        <a href="/kr/service/service/smart_membership/index.html" class="g_buy803">
+                                            <span class="fontno">스마트멤버십</span>
+                                        </a>
+                                    </li>-->
+                                    <li>
+                                        <a href="http://www.smotor.com/kr/service/service/organize/housed/index.html" class="g_buy804">
+                                            <span class="fontno">정비서비스</span>
+                                        </a>
+                                    </li>
+<li>
+                                        <a href="/kr/service/service/e-safety/definition/index.html" class="g_buy805">
+                                            <span class="fontno">E-saftey Care</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/service/service/recallinfo/definition/index.html" class="g_buy806">
+                                            <span class="fontno">리콜안내</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="g_buyinfo_02">
+                                    <li>
+                                        <span class="fontno gnb_list_title gnb_list_title9">네트워크</span>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/service/network/org/index.html" class="g_buy901">
+                                            <span class="fontno">정비사업소</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/service/network/center/index.html" class="g_buy902">
+                                            <span class="fontno">정비센터</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/service/network/fac/index.html" class="g_buy903">
+                                            <span class="fontno">지정공장</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/service/network/se_pl/index.html" class="g_buy904">
+                                            <span class="fontno">서비스프라자</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/service/network/comp/index.html" class="g_buy905">
+                                            <span class="fontno">부품대리점</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/service/network/rec/rec/index.html" class="g_buy906">
+                                            <span class="fontno">네트워크모집</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="g_buyinfo_03">
+                                    <li>
+                                        <span class="fontno gnb_list_title gnb_list_title10">차량관리안내</span>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.smotor.com/kr/service/manage/sel_org/index.html" class="g_buy1001">
+                                            <span class="fontno">자가정비</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.smotor.com/kr/service/manage/handl_ex/index.html" class="g_buy1002">
+                                            <span class="fontno">취급설명서</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.smotor.com/kr/service/manage/org_menu/index.html" class="g_buy1003">
+                                            <span class="fontno">순정부품/용품</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.smotor.com/kr/service/manage/faq/index.html" class="g_buy1004">
+                                            <span class="fontno">FAQ</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/service/manage/as/index.html" class="g_buy1005">
+                                            <span class="fontno">A/S매뉴얼</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/service/manage/navi/index.html" class="g_buy1006">
+                                            <span class="fontno">내비게이션 Update</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="g_buyinfo_04">
+                                    <li>
+                                        <span class="fontno gnb_list_title gnb_list_title11">NEWS</span>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/service/news/notice/index.html" class="g_buy1101">
+                                            <span class="fontno">공지사항</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/service/news/letter/index.html" class="g_buy1102">
+                                            <span class="fontno">A/S Letter</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/service/news/event/ing/index.html" class="g_buy1103">
+                                            <span class="fontno">EVENT</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="g_buyinfo_05">
+                                    <li>
+                                        <span class="fontno gnb_list_title gnb_list_title12">내차관리</span>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/service/mycar/index.html" class="g_buy1201">
+                                            <span class="fontno">내차정보관리</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.smotor.com/kr/service/mycar/reservation/index.html" class="g_buy1202">
+                                            <span class="fontno">정비예약</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.smotor.com/kr/service/mycar/ask/index.html" class="g_buy1203">
+                                            <span class="fontno">정비이력</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.smotor.com/kr/service/mycar/park/index.html" class="g_buy1204">
+                                            <span class="fontno">부품정보</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/service/mycar/smart/index.html" class="g_buy1205">
+                                            <span class="fontno">스마트서비스</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/service/mycar/manager/index.html" class="g_buy1206">
+                                            <span class="fontno">차계부</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <!-- END 서비스 -->
+                <!-- STR PR센터 -->
+                <li class="depth1">
+                    <a href="http://www.smotor.com/kr/company/center/index.html" class="gnb_btn4"><span class=" gnb_hover fontno">홍보센터</span></a>
+                    <div>
+                        <ul class="gnb_menu_list gnb_service">
+                            <li>
+                                <ul class="g_buyinfo_01">
+                                    <li>
+                                        <span class="fontno gnb_list_title gnb_list_title13">회사소식</span>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/company/center/news/index.html" class="g_buy1301">
+                                            <span class="fontno">공지사항</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/company/center/notice/index.html" class="g_buy1302">
+                                            <span class="fontno">보도자료</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="g_buyinfo_02">
+                                    <li>
+                                        <span class="fontno gnb_list_title gnb_list_title14">미디어센터</span>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/company/center/media/picture/index.html" class="g_buy1401">
+                                            <span class="fontno">TV CF</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/company/center/media/papercf/index.html" class="g_buy1402">
+                                            <span class="fontno">지면광고</span>
+                                        </a>
+                                    </li>
+                                    <!--<li>
+                                        <a href="/kr/company/center/media/companycf/index.html" class="g_buy1403">
+                                            <span class="fontno">기업홍보영상</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/company/center/media/brochure/index.html" class="g_buy1404">
+                                            <span class="fontno">BROCHURE</span>
+                                        </a>
+                                    </li>-->
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="g_buyinfo_03">
+                                    <li>
+                                        <span class="fontno gnb_list_title gnb_list_title15">이벤트</span>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/company/center/event/ing/index.html" class="g_buy1501">
+                                            <span class="fontno">진행중인 이벤트</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/company/center/event/end/index.html" class="g_buy1502">
+                                            <span class="fontno">종료된 이벤트</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/company/center/event/announcement/index.html" class="g_buy1503">
+                                            <span class="fontno">당첨자 발표</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="g_buyinfo_04">
+                                    <li>
+                                        <span class="fontno gnb_list_title gnb_list_title16">매거진</span>
+                                    </li>
+                                    <!-- <li>
+                                        <a href="/kr/company/center/webzine/index.html" class="g_buy1601">
+                                            <span class="fontno">웹진</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kr/company/center/media/magazine/index.html" class="g_buy1602">
+                                            <span class="fontno">사내보</span>
+                                        </a>
+                                    </li> -->
+									 <li>
+                                        <a href="http://allways.smotor.com/" class="g_buy1603" target="_blank">
+                                            <span class="fontno">종료된 이벤트</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="g_buyinfo_05">
+                                    <li>
+                                        <span class="fontno gnb_list_title gnb_list_title17">역사관</span>
+                                    </li>
+                                    <li>
+                                        <a href="#none" onclick="javascript:gopophistory();" class="g_buy1701">
+                                            <span class="fontno">역사관</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <!-- END PR센터 -->
+            </ul>
+            <!-- END Left gnb  -->
+            <!-- STR Right gnb -->
+            <ul class="gnb_2">
+                <li><a href="http://www.smotor.com/kr/company/smotor/index.html" class="gnb_btn5"><span class=" fontno">회사소개</span></a></li>
+                <li><a href="http://www.smotor.com/kr/company/ir/index.html" class="gnb_btn6"><span class=" fontno">IR</span></a></li>
+                <li><a href="http://www.smotor.com/kr/company/recruitment/index.html" class="gnb_btn7"><span class=" fontno">인재채용</span></a></li>
+                <li class="gnb_2_last"><a href="http://www.smotor.com/kr/member/sitemap/index.html" class="gnb_btn8"><span class=" fontno">전체매뉴</span></a></li>
+            </ul>            <!-- END Right gnb -->
+ <ul class="gnb_3">
+                <a href="javascript:void(0)" onclick='window.open("http://www.smotor.com/estimation/estimation2.jsp?car=T", "_blank", "scrollbars=no,top=100,left=100,width=1004,height=725");' >
+    <img src = "http://www.smotor.com/kr/images/20160624/160624_common/gnb_request.jpg">
+</a>
+    </ul>
+
+
+        </div> <!-- END head_main-->
+        </div> <!-- END head_bottom-->
+
+
+</div>
+
+
+<div class="gnb_open_bg"></div>
+    <!-- END header -->
+    <div class="tivoli-visual">
+<!--<div class="btnsub">
+    <div class="btnSmall">
+      <a href="http://allways.smotor.com/?s=%ED%8B%B0%EB%B3%BC%EB%A6%AC" target="_blank" class="btnType1">
+        <span class="btnIcon">블로그 콘텐츠 ></span>
+      </a>
+    </div>
+</div> -->
+</div>
+    <div id="navi" class="c7">
+  <!-- 아이콘메뉴 -->
+  <div class="quick_menu parts01">
+    <p class="carTit"><img src="/kr/images/tivoli_vv/carTilogo001.png" alt=""></p>
+    <ul>
+      <li><a href="#;" class="snsBtn" alt="Twitter"><img src="/kr/img/site/showroom/t_over_02.png" alt="twitter"></a></li>
+      <li><a href="#;" class="snsBtn" alt="Facebook"><img src="/kr/img/site/showroom/t_over_03.png" alt="facebook"></a></li>
+      <li>
+        
+        <a href="/kr/showroom/tivoli/car_file/__icsFiles/afieldfile/2022/07/28/Tivoli_E_Cotalogue_2208.pdf" target="_blank"><img src="/kr/img/site/showroom/t_over_01.png" alt="e-catalog"></a>
+          
+        </li>
+    </ul>
+  </div>
+  <!-- // 아이콘메뉴 -->
+  <!--  서브카테고리  -->
+  <div id="ch_w" class="ch_w_parts01">
+    <ul>
+    <li><a href="#highlight"><img src="/kr/images/tivoli_vv/tivoli_category0.png" alt="HIGHLIGHT"></a></li>
+      <li><a href="#exterior"><img src="/kr/images/tivoli_vv/tivoli_category1.png" alt="EXTERIOR"></a></li>
+      <li><a href="#interior"><img src="/kr/images/tivoli_vv/tivoli_category2.png" alt="INTERIOR"></a></li>
+	  <li><a href="#infoconnService"><img src="/kr/images/tivoli_vv/tivoli_category11.png" alt="INFOCONN"></a></li>
+      <li><a href="#safety"><img src="/kr/images/tivoli_vv/tivoli_category3.png" alt="SAFETY"></a></li>
+      <li><a href="#performance"><img src="/kr/images/tivoli_vv/tivoli_category4.png" alt="PERFORMANCE"></a></li>
+      <li><a href="#convenience"><img src="/kr/images/tivoli_vv/tivoli_category5.png" alt="CONVENIENCE"></a></li>
+      <li><a href="#customizing"><img src="/kr/images/tivoli_vv/tivoli_category7.png" alt="CUSTOMIZING"></a></li>
+      <li><a href="#specification"><img src="/kr/images/tivoli_vv/tivoli_category8.png" alt="SPECIFICATION"></a></li>
+      <li><a href="#price"><img src="/kr/images/tivoli_vv/tivoli_category9.png" alt="PRICE"></a></li>
+      <li><a href="#guide"><img src="/kr/images/tivoli_vv/tivoli_category10.png" alt="구매가이드"></a></li>
+    </ul>
+  </div>
+  <!-- // 서브카테고리 -->
+</div>
+    <!-- headerWrap ends -->
+    <div id="container">
+        <div class="container_inner">
+		
+		<!-- highlight start-->
+		
+		    <!--<section id="limitededition" style="background:url('http://www.smotor.com/kr/showroom/tivoli/showroom_tivoli.jpg') no-repeat center;  margin-top:-26px; margin-bottom:-30px;"></section>-->
+			
+			
+			<img src="/kr/images/tivoli_vv/highlight_01.jpg" /> <!--rplus 출시-->
+			<img src="/kr/images/tivoli_vv/highlight_02.jpg" /> <!--customizing 모음이미지-->
+				
+				
+			<!-- INFOCONN 시작 -->
+			<section id="infoconn" style="background:url('http://www.smotor.com/kr/showroom/tivoli/highlight_infoconn_bg.jpg') no-repeat center">
+				<div class="infoconn_tit">
+					<em><a href="#;" style="position:relative;z-index:100;"><img src="http://www.smotor.com/kr/showroom/tivoli/highlight_infoconn_tit.png" alt="INFOCONN"></a></em>
+					<p>><img src="http://www.smotor.com/kr/showroom/tivoli/highlight_infoconn_txt.png" alt="언제 어디서나 STAY CONNECTED 처음만나는 Mobility Life를 경험해보세요."></p>
+				</div>
+				<script>
+					$(function(){
+						$('.infoconn_tit a').click(function(event){
+							event.preventDefault ? event.preventDefault() : (event.returnValue = false);
+							$('.bg').fadeIn();
+							$('.ytb_close').fadeIn();
+							$('.youtube_popup').append('<iframe width="990" height="557" src="https://www.youtube.com/embed/_yd4_TlgVcg" frameborder="0" allowfullscreen></iframe>');
+						});
+					});
+				</script>
+			</section>
+			<!-- //INFOCONN 끝 -->
+			
+			
+		 <div class="tivoli_section" id="highlight">
+                <div class="section_title">
+                    <h1 class="rx_h1">
+                        <a href="#">
+                            <img src="/kr/images/tivoli_vv/tivoli_h1_highlight.png" alt="highlight" />
+                        </a>
+                    </h1>
+					
+                    <div class="line"></div>
+					
+					
+                </div>
+
+				
+
+
+				<!--<div class="highlight_slide">
+                    <ul class="bxslider">
+                      <li>
+                        <img src="/kr/images/tivoli_vv/highlight_style_slide1.jpg" />
+                      </li>
+                      <li>
+                        <img src="/kr/images/tivoli_vv/highlight_style_slide2.jpg" />
+                      </li>
+					  <li>
+                        <img src="/kr/images/tivoli_vv/highlight_style_slide3.jpg" />
+                      </li>
+                    </ul>
+                    
+                </div>-->
+				
+				<div class="highlight_img1"></div>
+				
+				
+				
+				
+				<div class="highlight_color">
+                   <div class="highlight_color_txt"></div>
+                    <div class="highlight_inner_bg type1"></div>
+                    <div class="highlight_inner_bg type2"></div>
+					<div class="highlight_inner_bg type3"></div>
+					<div class="highlight_inner_bg type4"></div>
+					<div class="highlight_inner_bg type5"></div>
+                    <div class="inner">
+                        <ul>
+                            <li>
+                                <a href="#" class="on"></a> <!-- type1-->
+                            </li>
+                           <li>
+                                <a href="#" ></a> <!-- type1-->
+                            </li>
+							<li>
+                                <a href="#" ></a> <!-- type1-->
+                            </li>
+							<li>
+                                <a href="#" ></a> <!-- type1-->
+                            </li>
+							<li>
+                                <a href="#" ></a> <!-- type1-->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+				
+				<div class="highlight_img2"></div>
+
+            </div> 
+			
+			<!--highlight  End -->
+		
+		
+		
+		
+		
+		
+		
+			<!--exterior  start -->
+		
+            <div class="tivoli_section" id="exterior">
+                <div class="section_title">
+                    <h1 class="rx_h1">
+                        <a href="#">
+                            <img src="/kr/images/tivoli_vv/tivoli_h1-2.png" alt="EXTERIOR" />
+                        </a>
+                    </h1>
+                    <div class="line"></div>
+					<img src="/kr/images/tivoli_vv/titledesc_1.png" />
+                </div>
+                <!-- 측면 탭 -->
+                <div class="rx_sideimg_tab">
+                    <a href="#" class="h_tab_f on">정면</a>
+                    <a href="#" class="h_tab_s">측면</a>
+                    <a href="#" class="h_tab_b">후면</a>
+                </div>
+                <div class="rx_exterior_slide_wrap">
+                    <div class="pop-wrap open" id="pop-ext">
+                        <a href="#none" class="btn-close">팝업닫기</a>
+                         <div class="tivoli-air-360">
+                            <h2 class="vr360-title">
+                                <img src="/kr/images/201603/360vr/vr_title.gif" alt="EXTERIOR 360 View">
+                            </h2>
+                            <div class="vr360-nav">
+                                <ul>
+                                    <li class="on">
+                                        <a href="#" class="vr360-nav1"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="vr360-nav2"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="one-tone wrap-cont" style="display: block;">
+                                <a href="" class="vr360-left"><img src="/kr/images/201603/360vr/vr_left.gif"></a>
+                                <a href="" class="vr360-right"><img src="/kr/images/201603/360vr/vr_right.gif"></a>
+                                
+                                <div class="one-tone-white one-tone-tabcont" style="display:none;">
+                                    <div class="threesixty onetone-w">
+                                        <div class="spinner">
+                                            <span>0%</span>
+                                        </div>
+                                        <ol class="one-tone-white_images threesixty_images"></ol>
+                                    </div>
+                                </div>
+                                <div class="one-tone-silver one-tone-tabcont" style="display:none;">
+                                    <div class="threesixty onetone-s">
+                                        <div class="spinner">
+                                            <span>0%</span>
+                                        </div>
+                                        <ol class="one-tone-white_images threesixty_images"></ol>
+                                    </div>
+                                </div>
+                                <div class="one-tone-gray one-tone-tabcont" style="display:none;">
+                                    <div class="threesixty onetone-g">
+                                        <div class="spinner">
+                                            <span>0%</span>
+                                        </div>
+                                        <ol class="one-tone-white_images threesixty_images"></ol>
+                                    </div>
+                                </div>
+                                <!--<div class="one-tone-orange one-tone-tabcont" style="display:none;">
+                                    <div class="threesixty onetone-o">
+                                        <div class="spinner">
+                                            <span>0%</span>
+                                        </div>
+                                        <ol class="one-tone-white_images threesixty_images"></ol>
+                                    </div>
+                                </div>-->
+								
+								<div class="one-tone-cherry one-tone-tabcont" style="display:none;">
+                                    <div class="threesixty onetone-c">
+                                        <div class="spinner">
+                                            <span>0%</span>
+                                        </div>
+                                        <ol class="one-tone-white_images threesixty_images"></ol>
+                                    </div>
+                                </div>
+                               
+                                <div class="one-tone-blue one-tone-tabcont" style="display:none;">
+                                    <div class="threesixty onetone-bl">
+                                        <div class="spinner">
+                                            <span>0%</span>
+                                        </div>
+                                        <ol class="one-tone-white_images threesixty_images"></ol>
+                                    </div>
+                                </div>
+                                <div class="one-tone-black one-tone-tabcont" style="display:none;">
+                                    <div class="threesixty onetone-bc">
+                                        <div class="spinner">
+                                            <span>0%</span>
+                                        </div>
+                                        <ol class="one-tone-white_images threesixty_images"></ol>
+                                    </div>
+                                </div>
+                           
+                                
+                                <div class="one-tone-nav">
+                                    <ul>
+                                        <li class="one-tone-nav1 on">
+                                            <a href=""></a>
+                                        </li>
+                                        <li class="one-tone-nav2">
+                                            <a href=""></a>
+                                        </li>
+                                        <li class="one-tone-nav3">
+                                            <a href=""></a>
+                                        </li>
+										
+                                        <!--<li class="one-tone-nav4">
+                                            <a href=""></a>
+                                        </li>-->
+                                        <li class="one-tone-nav5">
+                                            <a href=""></a>
+                                        </li>                                    
+										<li class="one-tone-nav6">
+                                            <a href=""></a>
+                                        </li>
+                                        <li class="one-tone-nav7">
+                                            <a href=""></a>
+                                        </li>
+                                       <!--  <li class="one-tone-nav8">
+                                            <a href=""></a>
+                                        </li>-->
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="two-tone wrap-cont" style="display: none;">
+                                <a href="" class="vr360-left"><img src="/kr/images/201603/360vr/vr_left.gif"></a>
+                                <a href="" class="vr360-right"><img src="/kr/images/201603/360vr/vr_right.gif"></a>
+                                
+                                <div class="two-tone-white two-tone-tabcont" style="display:none;">
+                                    <div class="threesixty twotone-w">
+                                        <div class="spinner">
+                                            <span>0%</span>
+                                        </div>
+                                        <ol class="one-tone-white_images threesixty_images"></ol>
+                                    </div>
+                                </div>
+                                <div class="two-tone-silver two-tone-tabcont" style="display:none;">
+                                    <div class="threesixty twotone-s">
+                                        <div class="spinner">
+                                            <span>0%</span>
+                                        </div>
+                                        <ol class="one-tone-white_images threesixty_images"></ol>
+                                    </div>
+                                </div>
+                                <div class="two-tone-gray two-tone-tabcont" style="display:none;">
+                                    <div class="threesixty twotone-g">
+                                        <div class="spinner">
+                                            <span>0%</span>
+                                        </div>
+                                        <ol class="one-tone-white_images threesixty_images"></ol>
+                                    </div>
+                                </div>
+                                <!--<div class="two-tone-orange two-tone-tabcont" style="display:none;">
+                                    <div class="threesixty twotone-o">
+                                        <div class="spinner">
+                                            <span>0%</span>
+                                        </div>
+                                        <ol class="one-tone-white_images threesixty_images"></ol>
+                                    </div>
+                                </div>-->
+                               
+								<div class="two-tone-cherry two-tone-tabcont" style="display:none;">
+                                    <div class="threesixty twotone-c">
+                                        <div class="spinner">
+                                            <span>0%</span>
+                                        </div>
+                                        <ol class="one-tone-white_images threesixty_images"></ol>
+                                    </div>
+                                </div>
+								
+                                <div class="two-tone-blue two-tone-tabcont" style="display:none;">
+                                    <div class="threesixty twotone-bl">
+                                        <div class="spinner">
+                                            <span>0%</span>
+                                        </div>
+                                        <ol class="one-tone-white_images threesixty_images"></ol>
+                                    </div>
+                                </div>
+                                <div class="two-tone-black two-tone-tabcont" style="display:none;">
+                                    <div class="threesixty twotone-bc">
+                                        <div class="spinner">
+                                            <span>0%</span>
+                                        </div>
+                                        <ol class="one-tone-white_images threesixty_images"></ol>
+                                    </div>
+                                </div>
+                            
+                                <div class="two-tone-nav">
+                                    <ul>
+                                        <li class="two-tone-nav1 on"><a href=""></a></li>
+                                        <li class="two-tone-nav2"><a href=""></a></li>
+                                        <li class="two-tone-nav3"><a href=""></a></li>
+                                        <!--<li class="two-tone-nav4"><a href=""></a></li>-->
+                                        <li class="two-tone-nav5"><a href=""></a></li>
+                                        <li class="two-tone-nav6"><a href=""></a></li>
+                                        <li class="two-tone-nav7"><a href=""></a></li>
+                                       <!-- <li class="two-tone-nav8"><a href=""></a></li>-->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 360 vr 버튼 -->
+                    <!--<a href="#" class="ex_vr_360 ext360">360 view</a> -->
+                    <!--팝업-->
+                    <div>
+                        <div class="front_zoom_pop zoom_pop">
+                            <a href="#" class="zoom_close">
+                                <img src="/kr/images/tivoli_vv/close.png" alt="close" />
+                            </a>
+                            <ul class="bxslider">
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                      <li>
+                                        <h2>Full LED 헤드램프</h2>
+                                        <span></span>
+                                        <img src="/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/ex_front_img1.jpg" />
+                                      </li>
+                                    
+                                  
+                              
+                                
+                                   
+                                      <li>
+                                        <h2>후드 & 벨트라인 크롬 몰딩</h2>
+                                        <span></span>
+                                        <img src="/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/ex_front_img2.jpg" />
+                                      </li>
+                                    
+                                  
+                              
+                                
+                                   
+                                      <li>
+                                        <h2>뉴 디자인 프론트 범퍼</h2>
+                                        <span></span>
+                                        <img src="/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2020/09/29/ex_front_img3.jpg" />
+                                      </li>
+                                    
+                                  
+                              
+                                
+                                   
+                                      <li>
+                                        <h2>뉴 디자인 안개등</h2>
+                                        <span></span>
+                                        <img src="/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/03/ex_front_img4.jpg" />
+                                      </li>
+                                    
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                            </ul>
+                            <div id="front-pager">
+                              <a data-slide-index="0" class="ex_front_thumb1" href=""></a>
+                              <a data-slide-index="1" class="ex_front_thumb2" href=""></a>
+                              <a data-slide-index="2" class="ex_front_thumb3" href=""></a>
+                              <a data-slide-index="3" class="ex_front_thumb4" href=""></a>
+                              <a data-slide-index="4" class="ex_front_thumb5" href=""></a>
+                              <a data-slide-index="5" class="ex_front_thumb6" href=""></a>
+                            </div>
+                        </div>
+                        <div class="side_zoom_pop zoom_pop">
+                            <a href="#" class="zoom_close">
+                                <img src="/kr/images/tivoli_vv/close.png" alt="close" />
+                            </a>
+                            <ul class="bxslider">
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                      <li>
+                                        <h2>다양한 휠 적용</h2>
+                                        <span></span>
+                                        <img src="/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2021/10/22/exterior_side_big.jpg" />
+                                      </li>
+                                    
+                                  
+                              
+                                
+                                   
+                                      <li>
+                                        <h2>패션 루프랙</h2>
+                                        <span></span>
+                                        <img src="/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/ex_side_img2.jpg" />
+                                      </li>
+                                    
+                                  
+                              
+                                
+                                   
+                                      <li>
+                                        <h2>LED 사이드 리피터 일체형 아웃사이드 미러</h2>
+                                        <span></span>
+                                        <img src="/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/ex_side_img3.jpg" />
+                                      </li>
+                                    
+                                  
+                              
+                                
+                                   
+                                      <li>
+                                        <h2>블랙 유광 가니쉬</h2>
+                                        <span></span>
+                                        <img src="/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/ex_side_img4.jpg" />
+                                      </li>
+                                    
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                            </ul>
+                            <div id="side-pager">
+                              <a data-slide-index="0" class="ex_side_thumb1" href=""></a>
+                              <a data-slide-index="1" class="ex_side_thumb2" href=""></a>
+                              <a data-slide-index="2" class="ex_side_thumb3" href=""></a>
+                              <a data-slide-index="3" class="ex_side_thumb4" href=""></a>
+                            </div>
+                        </div>
+                        <div class="back_zoom_pop zoom_pop">
+                            <a href="#" class="zoom_close">
+                                <img src="/kr/images/tivoli_vv/close.png" alt="close" />
+                            </a>
+                            <ul class="bxslider">
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                  
+                              
+                                
+                                   
+                                      <li>
+                                        <h2>LED 리어 콤비네이션 램프</h2>
+                                        <span></span>
+                                        <img src="/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/ex_back_img1.jpg" />
+                                      </li>
+                                    
+                                  
+                              
+                                
+                                   
+                                      <li>
+                                        <h2>리어 리플렉터</h2>
+                                        <span></span>
+                                        <img src="/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/ex_back_img4.jpg" />
+                                      </li>
+                                    
+                                  
+                              
+                                
+                                   
+                                      <li>
+                                        <h2>리어 스포일러 & LED 후방 보조 제동등</h2>
+                                        <span></span>
+                                        <img src="/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/ex_back_img5.jpg" />
+                                      </li>
+                                    
+                                  
+                              
+                                
+                                   
+                                      <li>
+                                        <h2>폴 안테나</h2>
+                                        <span></span>
+                                        <img src="/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/ex_back_img6.jpg" />
+                                      </li>
+                                    
+                                  
+                              
+                            </ul>
+                            <div id="back-pager">
+                              <a data-slide-index="0" class="ex_back_thumb1" href=""></a>
+                              <a data-slide-index="1" class="ex_back_thumb2" href=""></a>
+                              <a data-slide-index="2" class="ex_back_thumb3" href=""></a>
+                              <a data-slide-index="3" class="ex_back_thumb4" href=""></a>
+                              <a data-slide-index="4" class="ex_back_thumb5" href=""></a>
+                              
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 정측면 -->
+                    <div class="highlight_wrap h_cont_f">       
+                        <div class="rx_exterior_vr">
+                            <div id="front">
+                                <a href="#" class="rx_point1 on" data-btn="0"></a>
+                                <a href="#" class="rx_point2" data-btn="1"></a>
+                                <a href="#" class="rx_point3" data-btn="2"></a>
+                                <a href="#" class="rx_point4" data-btn="3"></a>
+                                
+                            </div>
+                        </div>
+                        <div class="rx_exterior_slide rx_exterior_slide_front">
+                            <ul class="bxslider">
+                              
+                                
+                                   
+                                      <li>
+                                          <img src="/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/exterior_front_slide1.jpg" alt="" />
+                                          <a href="#" class="zoom1">
+                                            <img src="/kr/images/tvair_img/img_zoom.jpg" alt="이미지 확대" />
+                                          </a>
+                                     </li> 
+                                        
+                                  
+                                
+                                
+                                   
+                                      <li>
+                                          <img src="/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/exterior_front_slide2_1.jpg" alt="" />
+                                          <a href="#" class="zoom2">
+                                            <img src="/kr/images/tvair_img/img_zoom.jpg" alt="이미지 확대" />
+                                          </a>
+                                     </li> 
+                                        
+                                  
+                                
+                                
+                                   
+                                      <li>
+                                          <img src="/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2020/09/29/exterior_front_slide3.jpg" alt="" />
+                                          <a href="#" class="zoom3">
+                                            <img src="/kr/images/tvair_img/img_zoom.jpg" alt="이미지 확대" />
+                                          </a>
+                                     </li> 
+                                        
+                                  
+                                
+                                
+                                   
+                                      <li>
+                                          <img src="/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/03/exterior_front_slide4.jpg" alt="" />
+                                          <a href="#" class="zoom4">
+                                            <img src="/kr/images/tvair_img/img_zoom.jpg" alt="이미지 확대" />
+                                          </a>
+                                     </li> 
+                                        
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                            </ul>
+
+
+
+
+
+                        </div>
+                        
+                    </div>
+                    <!-- 측면 -->
+                    <div class="highlight_wrap h_cont_s">
+                        <div class="rx_exterior_vr">
+                            <div class="side">
+                                <a href="#" class="rx_point1 on" data-btn="0"></a>
+                                <a href="#" class="rx_point2" data-btn="1"></a>
+                                <a href="#" class="rx_point3" data-btn="2"></a>
+                                <a href="#" class="rx_point4" data-btn="3"></a>
+                            </div>
+                        </div>
+                        <div class="rx_exterior_slide rx_exterior_slide_side">
+                            <ul class="bxslider">
+                              
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                      <li>
+                                          <img src="/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2021/10/22/exterior_side_slide1.jpg" alt="" />
+                                          <a href="#" class="zoom1">
+                                            <img src="/kr/images/tvair_img/img_zoom.jpg" alt="이미지 확대" />
+                                          </a>
+                                     </li> 
+                                        
+                                  
+                                
+                                
+                                   
+                                      <li>
+                                          <img src="/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/exterior_side_slide2.jpg" alt="" />
+                                          <a href="#" class="zoom2">
+                                            <img src="/kr/images/tvair_img/img_zoom.jpg" alt="이미지 확대" />
+                                          </a>
+                                     </li> 
+                                        
+                                  
+                                
+                                
+                                   
+                                      <li>
+                                          <img src="/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/exterior_side_slide3.jpg" alt="" />
+                                          <a href="#" class="zoom3">
+                                            <img src="/kr/images/tvair_img/img_zoom.jpg" alt="이미지 확대" />
+                                          </a>
+                                     </li> 
+                                        
+                                  
+                                
+                                
+                                   
+                                      <li>
+                                          <img src="/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/exterior_side_slide4.jpg" alt="" />
+                                          <a href="#" class="zoom4">
+                                            <img src="/kr/images/tvair_img/img_zoom.jpg" alt="이미지 확대" />
+                                          </a>
+                                     </li> 
+                                        
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    <!-- 후면 -->
+                    <div class="highlight_wrap h_cont_b">
+                        <div class="rx_exterior_vr">
+                            <div class="back">
+                                <a href="#" class="rx_point1 on" data-btn="0"></a>
+                                <!--<a href="#" class="rx_point2" data-btn="1"></a>-->
+                                <a href="#" class="rx_point3" data-btn="1"></a>
+                                <a href="#" class="rx_point4" data-btn="2"></a>
+                                <a href="#" class="rx_point5" data-btn="3"></a>
+                                <!-- <a href="#" class="rx_point6" data-btn="5"></a>-->
+                            </div>
+                        </div>
+                        <div class="rx_exterior_slide rx_exterior_slide_back">
+                            <ul class="bxslider">
+                              
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                      <li>
+                                          <img src="/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/exterior_back_slide1.jpg" alt="" />
+                                          <a href="#" class="zoom1">
+                                            <img src="/kr/images/tvair_img/img_zoom.jpg" alt="이미지 확대" />
+                                          </a>
+                                     </li> 
+                                        
+                                  
+                                
+                                
+                                   
+                                      <li>
+                                          <img src="/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2021/01/01/exterior_back_slide4_1.jpg" alt="" />
+                                          <a href="#" class="zoom3">
+                                            <img src="/kr/images/tvair_img/img_zoom.jpg" alt="이미지 확대" />
+                                          </a>
+                                     </li> 
+                                        
+                                  
+                                
+                                
+                                   
+                                      <li>
+                                          <img src="/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/exterior_back_slide5.jpg" alt="" />
+                                          <a href="#" class="zoom4">
+                                            <img src="/kr/images/tvair_img/img_zoom.jpg" alt="이미지 확대" />
+                                          </a>
+                                     </li> 
+                                        
+                                  
+                                
+                                
+                                   
+                                      <li>
+                                          <img src="/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/exterior_back_slide6.jpg" alt="" />
+                                          <a href="#" class="zoom5">
+                                            <img src="/kr/images/tvair_img/img_zoom.jpg" alt="이미지 확대" />
+                                          </a>
+                                     </li> 
+                                        
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                                
+                                   
+                                  
+                                
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <style>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                #front-pager .ex_front_thumb1 {background:url(/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/front_1.jpg) no-repeat;}
+                #front-pager .ex_front_thumb1.active {background:url(/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/front_1_on.jpg);}
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                #front-pager .ex_front_thumb2 {background:url(/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/front_2.jpg) no-repeat;}
+                #front-pager .ex_front_thumb2.active {background:url(/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/front_2_on.jpg);}
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                #front-pager .ex_front_thumb3 {background:url(/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2020/09/29/front_3.jpg) no-repeat;}
+                #front-pager .ex_front_thumb3.active {background:url(/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2020/09/29/front_3_on.jpg);}
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                #front-pager .ex_front_thumb4 {background:url(/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/03/front_4.jpg) no-repeat;}
+                #front-pager .ex_front_thumb4.active {background:url(/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/03/front_4_on.jpg);}
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                #side-pager .ex_side_thumb1 {background:url(/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/) no-repeat;}
+                #side-pager .ex_side_thumb1.active {background:url(/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/);}
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                #side-pager .ex_side_thumb2 {background:url(/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/side_2.jpg) no-repeat;}
+                #side-pager .ex_side_thumb2.active {background:url(/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/side_2_on.jpg);}
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                #side-pager .ex_side_thumb3 {background:url(/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/side_3.jpg) no-repeat;}
+                #side-pager .ex_side_thumb3.active {background:url(/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/side_3_on.jpg);}
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                #side-pager .ex_side_thumb4 {background:url(/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/side_4.jpg) no-repeat;}
+                #side-pager .ex_side_thumb4.active {background:url(/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/side_4_on.jpg);}
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                #back-pager .ex_back_thumb1 {background:url(/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/back_1.jpg) no-repeat;}
+                #back-pager .ex_back_thumb1.active {background:url(/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/back_1_on.jpg);}
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                #back-pager .ex_back_thumb3 {background:url(/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/back_4.jpg) no-repeat;}
+                #back-pager .ex_back_thumb3.active {background:url(/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/back_4_on.jpg);}
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                #back-pager .ex_back_thumb4 {background:url(/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/back_5.jpg) no-repeat;}
+                #back-pager .ex_back_thumb4.active {background:url(/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/back_5_on.jpg);}
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                #back-pager .ex_back_thumb5 {background:url(/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/back_6.jpg) no-repeat;}
+                #back-pager .ex_back_thumb5.active {background:url(/kr/showroom/tivoli/exterior2/__icsFiles/afieldfile/2019/06/02/back_6_on.jpg);}
+                
+                
+                
+            </style>
+			
+			<!-- tivoli_section Exterior End -->
+			
+			
+			
+			
+			
+			<!--interior  start -->
+            <div class="tivoli_section" id="interior">
+                <div class="section_title">
+                    <h1 class="rx_h1">
+                        <img src="/kr/images/tivoli_vv/tivoli_h1-3.png" alt="INTERIOR" />
+                    </h1>
+                    <div class="line"></div>
+					<img src="/kr/images/tivoli_vv/titledesc_2.png" />
+                </div>
+                <div class="interior_color">
+                    <div class="interior_inner_bg type1"></div>
+                    <div class="interior_inner_bg type2"></div>
+                    <div class="interior_inner_bg type3"></div>
+                    <div class="inner">
+                        <ul>
+                            <li>
+                                <a href="#" class="on"></a>
+                                <span>소프트 그레이 인테리어</span>
+                            </li>
+                            <li>
+                                <a href="#"></a>
+                                <span>버건디 투톤 인테리어</span>
+                            </li>
+                            <li>
+                                <a href="#"></a>
+                                <span>블랙 인테리어</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="cluster_txt"></div>
+                
+                
+				<div class="cluster">
+                    <div class="cluster_color">
+                        <div class="cluster_color1" style="display:block;"></div>
+                        <div class="cluster_color2"></div>
+                        <div class="cluster_color3"></div>
+                        <div class="cluster_color4"></div>
+                        <div class="cluster_color5"></div>
+                        <div class="cluster_color6"></div>
+                    </div>
+                    <div class="cluster_inner">
+						<ul class="cluster_tab">
+							<li><a href="#" class="on">RED</a></li>
+							<li><a href="#">BLUE</a></li>
+							<li><a href="#">YELLOW</a></li>
+							<li><a href="#">SKYBLUE</a></li>
+							<li><a href="#">WHITE</a></li>
+							<li><a href="#">BLACK</a></li>
+						</ul>
+					</div>
+                </div>
+
+                
+                <div class="interior_img"></div>
+            </div>
+			
+		
+			<!-- interior slide start -->
+            <div class="scroll_slide">
+                <div class="frame frame1">
+                    <ul class= "slidee" >
+                        
+                            
+                              
+                                
+                                  
+                                    <li style="width:640px;">
+                                  
+                                     
+                                <div>
+                                  <img src="/kr/showroom/tivoli/interior2/__icsFiles/afieldfile/2020/09/29/in_scroll_img1_1.jpg" alt="" />
+                                  <a href="#" class="scroll_more zoom1">
+                                    <img src="/kr/images/tivoli_vv/scroll_more.png" alt="" />
+                                  </a>
+                                </div>
+                                 
+                                  
+                                
+
+                                
+                                  
+                                   
+
+                                
+                                  
+
+                                
+                                  
+                                            
+
+                                
+                                  
+                                                                                                                          
+                              
+                            
+                          
+                            
+                              
+                                
+                                  
+                                     
+                                <div>
+                                  <img src="/kr/showroom/tivoli/interior2/__icsFiles/afieldfile/2019/06/02/in_scroll_img2.jpg" alt="" />
+                                  <a href="#" class="scroll_more zoom2">
+                                    <img src="/kr/images/tivoli_vv/scroll_more.png" alt="" />
+                                  </a>
+                                </div>
+                                 
+                                  
+                                    </li>
+                                    <li style="width:640px;">
+                                  
+                                
+
+                                
+                                  
+                                   
+
+                                
+                                  
+
+                                
+                                  
+                                            
+
+                                
+                                  
+                                                                                                                          
+                              
+                            
+                          
+                            
+                              
+                                
+                                  
+                                     
+                                <div>
+                                  <img src="/kr/showroom/tivoli/interior2/__icsFiles/afieldfile/2019/06/02/in_scroll_img3.jpg" alt="" />
+                                  <a href="#" class="scroll_more zoom3">
+                                    <img src="/kr/images/tivoli_vv/scroll_more.png" alt="" />
+                                  </a>
+                                </div>
+                                 
+                                  
+                                
+
+                                
+                                  
+                                   
+
+                                
+                                  
+
+                                
+                                  
+                                            
+
+                                
+                                  
+                                                                                                                          
+                              
+                            
+                          
+                            
+                              
+                                
+                                  
+                                     
+                                <div>
+                                  <img src="/kr/showroom/tivoli/interior2/__icsFiles/afieldfile/2019/06/02/in_scroll_img4.jpg" alt="" />
+                                  <a href="#" class="scroll_more zoom4">
+                                    <img src="/kr/images/tivoli_vv/scroll_more.png" alt="" />
+                                  </a>
+                                </div>
+                                 
+                                  
+                                
+
+                                
+                                  
+                                    </li>
+                                    <li style="width:640px;">
+                                  
+                                   
+
+                                
+                                  
+
+                                
+                                  
+                                            
+
+                                
+                                  
+                                                                                                                          
+                              
+                            
+                          
+                            
+                              
+                                
+                                  
+                                     
+                                <div>
+                                  <img src="/kr/showroom/tivoli/interior2/__icsFiles/afieldfile/2019/06/02/in_scroll_img5.jpg" alt="" />
+                                  <a href="#" class="scroll_more zoom5">
+                                    <img src="/kr/images/tivoli_vv/scroll_more.png" alt="" />
+                                  </a>
+                                </div>
+                                 
+                                  
+                                
+
+                                
+                                  
+                                   
+
+                                
+                                  
+
+                                
+                                  
+                                            
+
+                                
+                                  
+                                                                                                                          
+                              
+                            
+                          
+                            
+                              
+                                
+                                  
+                                     
+                                <div>
+                                  <img src="/kr/showroom/tivoli/interior2/__icsFiles/afieldfile/2020/09/29/in_scroll_img6_1.jpg" alt="" />
+                                  <a href="#" class="scroll_more zoom6">
+                                    <img src="/kr/images/tivoli_vv/scroll_more.png" alt="" />
+                                  </a>
+                                </div>
+                                 
+                                  
+                                
+
+                                
+                                  
+                                   
+
+                                
+                                  
+                                    </li>
+                                    <li style="width:640px;">
+                                  
+
+                                
+                                  
+                                            
+
+                                
+                                  
+                                                                                                                          
+                              
+                            
+                          
+                            
+                              
+                                
+                                  
+                                     
+                                <div>
+                                  <img src="/kr/showroom/tivoli/interior2/__icsFiles/afieldfile/2020/09/29/in_scroll_img7.jpg" alt="" />
+                                  <a href="#" class="scroll_more zoom7">
+                                    <img src="/kr/images/tivoli_vv/scroll_more.png" alt="" />
+                                  </a>
+                                </div>
+                                 
+                                  
+                                
+
+                                
+                                  
+                                   
+
+                                
+                                  
+
+                                
+                                  
+                                            
+
+                                
+                                  
+                                                                                                                          
+                              
+                            
+                          
+                            
+                              
+                                
+                                  
+                                     
+                                <div>
+                                  <img src="/kr/showroom/tivoli/interior2/__icsFiles/afieldfile/2019/06/02/in_scroll_img8.jpg" alt="" />
+                                  <a href="#" class="scroll_more zoom8">
+                                    <img src="/kr/images/tivoli_vv/scroll_more.png" alt="" />
+                                  </a>
+                                </div>
+                                 
+                                  
+                                
+
+                                
+                                  
+                                   
+
+                                
+                                  
+
+                                
+                                  
+                                    </li>
+                                    <li style="width:640px;">
+                                  
+                                            
+
+                                
+                                  
+                                                                                                                          
+                              
+                            
+                          
+                            
+                              
+                                
+                                  
+                                     
+                                <div>
+                                  <img src="/kr/showroom/tivoli/interior2/__icsFiles/afieldfile/2019/06/02/in_scroll_img9.jpg" alt="" />
+                                  <a href="#" class="scroll_more zoom9">
+                                    <img src="/kr/images/tivoli_vv/scroll_more.png" alt="" />
+                                  </a>
+                                </div>
+                                 
+                                  
+                                
+
+                                
+                                  
+                                   
+
+                                
+                                  
+
+                                
+                                  
+                                            
+
+                                
+                                  
+                                                                                                                          
+                              
+                            
+                          
+                            
+                              
+                                
+                                  
+                                     
+                                <div>
+                                  <img src="/kr/showroom/tivoli/interior2/__icsFiles/afieldfile/2019/06/02/in_scroll_img10.jpg" alt="" />
+                                  <a href="#" class="scroll_more zoom10">
+                                    <img src="/kr/images/tivoli_vv/scroll_more.png" alt="" />
+                                  </a>
+                                </div>
+                                 
+                                  
+                                
+
+                                
+                                  
+                                   
+
+                                
+                                  
+
+                                
+                                  
+                                            
+
+                                
+                                  
+                                    </li>
+                                    <li style="width:640px;">
+                                  
+                                                                                                                          
+                              
+                            
+                          
+                            
+                              
+                            
+                          
+                            
+                              
+                            
+                          
+                            
+                              
+                            
+                          
+                            
+                              
+                            
+                          
+                            
+                              
+                            
+                          
+                            
+                              
+                            
+                          
+                            
+                              
+                            
+                          
+                            
+                              
+                            
+                          
+                            
+                              
+                            
+                          
+                            
+                              
+                            
+                          
+                        </li>
+                    </ul>
+                </div>
+                <div class="scrollbar">
+                    <div class="scrollbar_inner">
+                        <div class="handle"></div>
+                    </div>
+                </div>
+                <div class="in_zoom_pop zoom_pop thumb">
+                    <a href="#" class="zoom_close">
+                        <img src="/kr/images/tivoli_vv/close.png" alt="close" />
+                    </a>
+                    <ul class="bxslider">
+                        
+                          
+                            
+                          
+                        
+                          
+                            
+                          
+                        
+                          
+                            
+                          
+                        
+                          
+                            
+                          
+                        
+                          
+                            
+                          
+                        
+                          
+                            
+                          
+                        
+                          
+                            
+                          
+                        
+                          
+                            
+                          
+                        
+                          
+                            
+                          
+                        
+                          
+                            
+                          
+                        
+                          
+                            
+                              <li>
+                                <h2>풀시트</h2>
+                                <span></span>
+                                <img src="/kr/showroom/tivoli/interior2/__icsFiles/afieldfile/2020/09/29/in_1.jpg" />
+                              </li>
+                            
+                          
+                        
+                          
+                            
+                              <li>
+                                <h2>2열 시트 공간</h2>
+                                <span>뒷좌석까지 편안하게 이용 가능한 동급 최대 수준의 넓은 2열 공간을 확보했습니다.</span>
+                                <img src="/kr/showroom/tivoli/interior2/__icsFiles/afieldfile/2019/06/02/in_2.jpg" />
+                              </li>
+                            
+                          
+                        
+                          
+                            
+                              <li>
+                                <h2>무드램프 도어</h2>
+                                <span></span>
+                                <img src="/kr/showroom/tivoli/interior2/__icsFiles/afieldfile/2019/06/02/in_3.jpg" />
+                              </li>
+                            
+                          
+                        
+                          
+                            
+                              <li>
+                                <h2>LED룸램프</h2>
+                                <span></span>
+                                <img src="/kr/showroom/tivoli/interior2/__icsFiles/afieldfile/2019/06/02/in_4.jpg" />
+                              </li>
+                            
+                          
+                        
+                          
+                            
+                              <li>
+                                <h2>시트 편의장치</h2>
+                                <span>동급최초로 4way 파워 럼버 서포트를 적용한 고급가죽시트는 운전자의 자세를 잡아주어 장시간 운전 피로를 풀어주고 편안함을 제공합니다. 
+</span>
+                                <img src="/kr/showroom/tivoli/interior2/__icsFiles/afieldfile/2019/06/02/in_5.jpg" />
+                              </li>
+                            
+                          
+                        
+                          
+                            
+                              <li>
+                                <h2>태블릿 타입 센터페시아</h2>
+                                <span>모던하고 심플하게 정돈된 디자인과 인체공학적 설계로 최상의 조작 편의성을 제공합니다.
+</span>
+                                <img src="/kr/showroom/tivoli/interior2/__icsFiles/afieldfile/2020/09/29/in_6.jpg" />
+                              </li>
+                            
+                          
+                        
+                          
+                            
+                              <li>
+                                <h2>스포티 D컷 스티어링 휠 </h2>
+                                <span>운전자를 세심하게 배려한 인체 공학적 스포티 D컷 디자인 및 비정형 그립으로 스포티한 감성을 연출했습니다. 
+</span>
+                                <img src="/kr/showroom/tivoli/interior2/__icsFiles/afieldfile/2020/09/29/in_7.jpg" />
+                              </li>
+                            
+                          
+                        
+                          
+                            
+                              <li>
+                                <h2>열선시트</h2>
+                                <span></span>
+                                <img src="/kr/showroom/tivoli/interior2/__icsFiles/afieldfile/2019/06/02/in_8.jpg" />
+                              </li>
+                            
+                          
+                        
+                          
+                            
+                              <li>
+                                <h2>1열 3단 통풍시트</h2>
+                                <span>시트백 및 쿠션 블로워 타입 통풍시트의 3단계 조절 기능을 통해 세밀한 풍량 조정이 가능합니다.</span>
+                                <img src="/kr/showroom/tivoli/interior2/__icsFiles/afieldfile/2019/06/02/in_9.jpg" />
+                              </li>
+                            
+                          
+                        
+                          
+                            
+                              <li>
+                                <h2>체압분포</h2>
+                                <span></span>
+                                <img src="/kr/showroom/tivoli/interior2/__icsFiles/afieldfile/2019/06/02/in_10.jpg" />
+                              </li>
+                            
+                          
+                        
+                    </ul>
+                </div>
+            </div>  <!-- interior slide end -->
+			<!-- interior  end -->
+			
+			
+			
+			<!-- 2020-02-25 추가 -->
+		<!-- INFOCONN SERVICE 시작 -->
+		
+		<section id="infoconnService">
+			<div class="respon">
+				<h3>
+				<div class="section_title">
+					<em><img src="http://www.smotor.com/kr/showroom/tivoli/infoconnService_tit.png" alt="Infoconn" /></em>
+					<div class="line"></div>
+					<!-- 2020-03-11 추가 -->
+					<a href="https://infoconn.smotor.com/" class="btn_infoconn" target="_blank"><img src="http://www.smotor.com/kr/showroom/tivoli/go_infoconn.png" alt="Infoconn 바로가기" /></a>
+					</div>
+					<!-- //2020-03-11 추가 -->
+					<p>AWESOME Infoconn! 인포콘 (infoconn)은 쌍용자동차가 제공하는 커넥티드 카 서비스 브랜드입니다.<br>정보 및 엔터테인먼트를 뜻하는 Infotainment와 모바일 인터넷 연결을 의미하는 Connectivity가 융합된 진정한 의미의 커넥티드카 서비스를 제공합니다.<br>6가지 AWESOM 서비스군 아래 다양한 서비스를 경험해 보세요.</p>
+				</h3>
+			</div>
+			<div class="tab-wrap">
+				<div class="tabmnu">
+					<ul class="infoconn_tab floats">
+						<li class="current"><a title="#tab_infoconn01" class="tab1" href="#;"><span>Assistance</span></a></li>
+						<li><a title="#tab_infoconn02" class="tab2" href="#;"><span>Wisdom</span></a></li>
+						<li><a title="#tab_infoconn03" class="tab3" href="#;"><span>Entertainment</span></a></li>
+						<li><a title="#tab_infoconn04" class="tab4" href="#;"><span>Safety &amp; Security</span></a></li>
+						<li><a title="#tab_infoconn05" class="tab5" href="#;"><span>Over the Air</span></a></li>
+						<li><a title="#tab_infoconn06" class="tab6" href="#;"><span>Monitoring</span></a></li>
+					</ul>
+				</div>
+				<div class="tab_infoconn_wrap">
+					<div class="tab_infoconn" id="tab_infoconn01">
+						<ul class="infoconn_slide">
+							<li><img src="http://www.smotor.com/kr/showroom/tivoli/infoconnService_tab01_cont01.jpg" alt="음성으로 메시지 보내기" />
+								<strong>음성으로 메시지 보내기</strong>
+								<p>음성인식 기능을 이용해 음성으로 휴대폰 메시지를 보낼 수 있는 서비스 입니다.<br>스티어링 휠의 버튼으로 조작하고 음성으로 명령하여 메시지를 보내도록 지원함으로써 운전자의 주행 중 주의 분산을 낮추어 줍니다.</p>
+							</li>
+							<li><img src="http://www.smotor.com/kr/showroom/tivoli/infoconnService_tab01_cont02.jpg" alt="홈 IoT 연동" />
+								<strong>홈 IoT 연동</strong>
+								<p>네이버 &amp; U+ 홈 IoT에 가입된 기기 또는 기능을 음성과 화면(터치)을 통해 제어할 수 있는 서비스입니다.<br>터치로는 스위치, 플러그, 열림 알리미, 가스 잠그미만 제공하지만, 음성으로는 더 많은 기기를 제어 할 수 있습니다. <br>차량의 AVN 화면에서 홈 IoT 기기 상태확인, 개별 기기 제어, 기기 전체 제어를 가능하게 함으로써 고객의 편의와 가전기기의 사고 위험을 방지합니다.</p>
+								<em class="fColorBl">※서비스 이용을 위해 LG U+ 홈 IoT 회원가입이 필요합니다.</em>
+							</li>
+						</ul>
+						<div class="outarrow">
+                            <p><span id="slider-prev"></span><span id="slider-next"></span></p>
+                        </div>
+					</div>
+					<div class="tab_infoconn" id="tab_infoconn02">
+						<ul class="infoconn_slide">
+							<li><img src="http://www.smotor.com/kr/showroom/tivoli/infoconnService_tab02_cont01.jpg" alt="커넥티트 카 내비게이션" />
+								<strong>커넥티트 카 내비게이션</strong>
+								<p>내비게이션 정보 센터와 무선 연결된 커넥티드 내비게이션은 음성으로도 조작 가능하며,<br>실시간 POI 정보, 과속 카메라, 교통정보를 활용하여 정확하고 효율적인 길안내가 가능한 차세대 내비게이션 서비스 입니다.</p>
+							</li>
+							<li><img src="http://www.smotor.com/kr/showroom/tivoli/infoconnService_tab02_cont02.jpg" alt="지식 검색" />
+								<strong>지식 검색</strong>
+								<p>음성인식을 통해 고객님의 질문에 적절한 답변을 찾아 드림으로써 고객 생활의 질을 높여 드립니다.<br>다양한 정보(최신영화 정보, 맛집 영업시간/가격/위치 정보, 번역 서비스, 운세, 인물검색, 지식백과, 금융 시세 등)<br>답변제공을 통해 고객의 니즈를 충족시켜주는 서비스 입니다.</p>
+							</li>
+							<li><img src="http://www.smotor.com/kr/showroom/tivoli/infoconnService_tab02_cont03.jpg" alt="날씨" />
+								<strong>날씨</strong>
+								<p>음성인식 또는 직접 검색 등을 통해 차량내 AVN 메뉴에서 날씨 정보를 제공해 주는 서비스입니다.</p>
+							</li>
+						</ul>
+						<div class="outarrow">
+                            <p><span id="slider-prev"></span><span id="slider-next"></span></p>
+                        </div>
+					</div>
+					<div class="tab_infoconn" id="tab_infoconn03">
+						<ul class="infoconn_slide">
+							<li><img src="http://www.smotor.com/kr/showroom/tivoli/infoconnService_tab03_cont01.jpg" alt="뮤직" />
+								<strong>뮤직</strong>
+								<p>음악 청취를 통한 FUN 드라이빙을 제공합니다. 지니 뮤직에서 제공하는 뮤직 오디오 파일을 AVN에서 재생해 주는 서비스입니다.<br>(네이버 뮤직, 벅스 뮤직은 클로바(Clova) App에서만 설정가능하며 AVN 화면에서 별도로 제공하지 않습니다.) </p>
+								<em>※ 네이버/벅스/지니 뮤직 회원가입이 필요합니다.</em>
+							</li>
+							<li><img src="http://www.smotor.com/kr/showroom/tivoli/infoconnService_tab03_cont02.jpg" alt="팟캐스트" />
+								<strong>팟캐스트</strong>
+								<p>팟빵에서 제공하는 오디오 파일을 AVN에서 재생해 주는 서비스 입니다.<br>오디오 청취를 통한 FUN 드라이빙을 제공합니다.</p>
+							</li>
+							<li><img src="http://www.smotor.com/kr/showroom/tivoli/infoconnService_tab03_cont03.jpg" alt="기타 스트리밍 컨텐츠" />
+								<strong>기타 스트리밍 컨텐츠</strong>
+								<p>뮤직과 팟캐스트 외에도 뉴스, 유.아동 컨텐츠, 영어학습, 백과사전, 성경 읽어 주기 등의 스트리밍 컨텐츠가 가능합니다. <br>다양한 스트리밍 컨텐츠로 이용자에게 즐거움을 제공하는 서비스이며, 다음과 같이 이용이 가능합니다.</p>
+							</li>
+						</ul>
+						<div class="outarrow">
+                            <p><span id="slider-prev"></span><span id="slider-next"></span></p>
+                        </div>
+					</div>
+					<div class="tab_infoconn" id="tab_infoconn04">
+						<ul class="infoconn_slide">
+							<li><img src="http://www.smotor.com/kr/showroom/tivoli/infoconnService_tab04_cont01.jpg" alt="에어백 전개 알림" />
+								<strong>에어백 전개 알림</strong>
+								<p>차량 추돌 사고로 에어백 전개 시 인포콘 상담센터로 통화가 자동 연결되어<br>긴급구조 및 사고처리를 위한 적절한 조치를 받을 수 있도록 도와주는 서비스 입니다.</p>
+							</li>
+							<li><img src="http://www.smotor.com/kr/showroom/tivoli/infoconnService_tab04_cont02.jpg" alt="도난 차량 위치 추적" />
+								<strong>도난 차량 위치 추적</strong>
+								<p>차량 도난 시 인포콘 상담센터가 경찰과 공조하여 도난 차량의 현재 위치 및 주행 경로 등을<br>경찰에 실시간으로 제공하여, 신속하게 도난 차량 추적을 지원하는 서비스입니다.</p>
+							</li>
+							<li><img src="http://www.smotor.com/kr/showroom/tivoli/infoconnService_tab04_cont03.jpg" alt="Infoconn" />
+								<strong>도난 경보 알림</strong>
+								<p>스마트 키로 차량 도어를 잠근 후 다른 방법으로 도어, 테일게이트 또는 엔진 후드를 열게되면<br>도난 경보가 발생하며, 고객님의 휴대폰으로 메시지가 전송되는 서비스 입니다.<br>(해당 기능은 차종 및 옵션 별로 상이할 수 있으므로 차량 매뉴얼을 참고하여 주시기 바랍니다.)</p>
+							</li>
+						</ul>
+						<div class="outarrow">
+                            <p><span id="slider-prev"></span><span id="slider-next"></span></p>
+                        </div>
+					</div>
+					<div class="tab_infoconn" id="tab_infoconn05">
+						<ul class="infoconn_slide">
+							<li><img src="http://www.smotor.com/kr/showroom/tivoli/infoconnService_tab05_cont01.jpg" alt="원격 시동 및 원격 공조제어(켜기)" />
+								<strong>원격 시동 및 원격 공조제어(켜기)</strong>
+								<p>원격지에서 차량에 시동을 걸거나 미리 시동을 걸어 에어컨이나 히터 등을 켤 수 있는 서비스입니다.</p>
+							</li>
+							<li><img src="http://www.smotor.com/kr/showroom/tivoli/infoconnService_tab05_cont02.jpg" alt="원격 공조 제어(끄기)" />
+								<strong>원격 공조 제어(끄기)</strong>
+								<p>원격지에서 차량의 공조 장치 (에어컨, 히터)의 작동을 정지 시킬 수 있는 서비스입니다.</p>
+							</li>
+							<li><img src="http://www.smotor.com/kr/showroom/tivoli/infoconnService_tab05_cont03.jpg" alt="원격 도어 열림/잠김" />
+								<strong>원격 도어 열림/잠김</strong>
+								<p>원격지에서 차량을 조작하여 차량 문을 열거나 잠글 수 있는 서비스입니다.</p>
+							</li>
+							<li><img src="http://www.smotor.com/kr/showroom/tivoli/infoconnService_tab05_cont04.jpg" alt="원격 경적/비상등 제어" />
+								<strong>원격 경적/비상등 제어</strong>
+								<p>주차 위치 근처에서 비상등 및 경적을 제어하여 차량을 찾을 수 있는 서비스입니다.</p>
+							</li>
+						</ul>
+						<div class="outarrow">
+                            <p><span id="slider-prev"></span><span id="slider-next"></span></p>
+                        </div>
+					</div>
+					<div class="tab_infoconn" id="tab_infoconn06">
+						<ul class="infoconn_slide">
+							<li><img src="http://www.smotor.com/kr/showroom/tivoli/infoconnService_tab06_cont01.jpg" alt="차량 진단" />
+								<strong>차량 진단</strong>
+								<p>클러스터 경고등 발생 혹은 운전자가 차량의 이상을 감지하였을 때, 차량의 고장코드 정보를 분석하고,<br>어떤 부분에 이상이 있는지 운전자에게 적절한 시기에 차량 정비를 받을 수 있도록 안내해 드리는 서비스 입니다.</p>
+							</li>
+							<li><img src="http://www.smotor.com/kr/showroom/tivoli/infoconnService_tab06_cont02.jpg" alt="내 차 상태 확인" />
+								<strong>내 차 상태 확인</strong>
+								<p>스마트 폰 앱에서 엔진 시동 상태, 차량 문 열림, 도어 잠김, 헤드램프, 선루프,<br>테일 게이트 상태를 원격에서 확인하는 기능이 제공 되는 서비스입니다.</p>
+							</li>
+							<li><img src="http://www.smotor.com/kr/showroom/tivoli/infoconnService_tab06_cont03.jpg" alt="주차 위치 찾기 (지도)" />
+								<strong>주차 위치 찾기 (지도)</strong>
+								<p>사용자 위치로부터 1km 이내에 주차한 차량의 위치를 확인하여<br>스마트 폰 앱의 지도상에 표시하여 내 차의 주차 위치를 확인할 수 있는 서비스입니다.</p>
+							</li>
+							<li><img src="http://www.smotor.com/kr/showroom/tivoli/infoconnService_tab06_cont04.jpg" alt="소모품 교체 알림" />
+								<strong>소모품 교체 알림</strong>
+								<p>고객님 차량의 소모품 정비/교체 주기를 확인하고 교환 시기에 맞춰 알림을 보내 드리는 서비스 입니다.</p>
+							</li>
+							<li><img src="http://www.smotor.com/kr/showroom/tivoli/infoconnService_tab06_cont05.jpg" alt="월간 차량 리포트" />
+								<strong>월간 차량 리포트</strong>
+								<p>매월 지정 날짜에 맞춰 고객님 차량의 운행정보와 차량의 이상 유무 그리고 소모품 교체 주기를 보고서로 알려드리는 웹 사이트 서비스입니다.<br />한 달 단위로 등록하신 고객님의 이메일로 보고서가 전송되며, 고객 웹, 스마트폰 앱에서도 조회가 가능합니다.</p>
+							</li>
+						</ul>
+						<div class="outarrow">
+                            <p><span id="slider-prev"></span><span id="slider-next"></span></p>
+                        </div>
+					</div>
+				</div>
+			</div>
+			<script>
+				var tabBtn = $("#infoconnService .infoconn_tab li"); //각각의 버튼을 변수에 저장
+				var tabCont = $("#infoconnService .tab_infoconn");  //각각의 컨텐츠를 변수에 저장
+
+				tabCont.hide().eq(0).show();
+
+				tabBtn.click(function(){
+					var target = $(this);        //버튼의 타켓(순서)을 변수에 저장
+					var index = target.index();  //버튼의 순서를 변수에 저장
+					// alert(index);
+					tabBtn.removeClass("current");   //버튼의 클래스를 삭제
+					target.addClass("current");   //타켓의 클래스를 추가
+					tabCont.css("display","none");
+					tabCont.eq(index).css("display","block");
+				});
+
+
+				 $('#tab_infoconn01 .infoconn_slide').bxSlider({
+						mode: 'fade',
+						pager: false,
+						nextSelector: '#tab_infoconn01.tab_infoconn #slider-next',
+                        prevSelector: '#tab_infoconn01.tab_infoconn #slider-prev'
+				   });
+				   $('#tab_infoconn02 .infoconn_slide').bxSlider({
+						 mode: 'fade',
+						pager: false,
+						nextSelector: '#tab_infoconn02.tab_infoconn #slider-next',
+                        prevSelector: '#tab_infoconn02.tab_infoconn #slider-prev'
+				   });
+				   $('#tab_infoconn03 .infoconn_slide').bxSlider({
+						 mode: 'fade',
+						pager: false,
+						nextSelector: '#tab_infoconn03.tab_infoconn #slider-next',
+                        prevSelector: '#tab_infoconn03.tab_infoconn #slider-prev'
+				   });
+				   $('#tab_infoconn04 .infoconn_slide').bxSlider({
+						 mode: 'fade',
+						pager: false,
+						nextSelector: '#tab_infoconn04.tab_infoconn #slider-next',
+                        prevSelector: '#tab_infoconn04.tab_infoconn #slider-prev'
+				   });
+				   $('#tab_infoconn05 .infoconn_slide').bxSlider({
+						 mode: 'fade',
+						pager: false,
+						nextSelector: '#tab_infoconn05.tab_infoconn #slider-next',
+                        prevSelector: '#tab_infoconn05.tab_infoconn #slider-prev'
+				   });
+				   $('#tab_infoconn06 .infoconn_slide').bxSlider({
+						 mode: 'fade',
+						pager: false,
+						nextSelector: '#tab_infoconn06.tab_infoconn #slider-next',
+                        prevSelector: '#tab_infoconn06.tab_infoconn #slider-prev'
+				   });
+			
+			</script>
+		</section>
+		<!-- //INFOCONN SERVICE 끝 -->
+		<!-- //2020-02-25 추가 -->
+
+		
+		
+		
+		
+
+			<!-- safety  start -->
+            <div class="tivoli_section" id="safety">
+                <div class="section_title">
+                    <h1 class="rx_h1">
+                        <img src="/kr/images/tivoli_vv/tivoli_h1-4.png" alt="SAFETY" />
+                    </h1>
+                    <div class="line"></div>
+					<img src="/kr/images/tivoli_vv/titledesc_3.png" />
+                </div>
+				
+				<!-- TECHNOLOGY 시작 -->
+		<section id="technology">
+			<div style="width:100%;height:58px;position:relative;text-align: center">
+				<img src="/kr/images/tivoli_vv/safety_deepcontrol.png" />	    	
+
+			</div>
+
+		    
+		   
+		    
+		    <!-- Cruise control 시작 -->
+		    <article id="cruisecontrol">
+		        <div class="respon">
+		            
+                    <div class="iaccetcslide">
+                        <ul>
+                            <li>
+                                
+                                <em class="pic"><img src="/kr/images/tivoli_vv/safety_iacc_slide01.jpg" alt="탑승객 하차 보조(EAF)" /></em>
+                                
+                            </li>
+                            <li>
+                                
+                                <em class="pic"><img src="/kr/images/tivoli_vv/safety_iacc_slide02.jpg" alt="안전거리 경보" /></em>
+                              
+                            </li>
+                            <li>
+                                
+                                <em class="pic"><img src="/kr/images/tivoli_vv/safety_iacc_slide03.jpg" alt="앞차 출발 알림" /></em>
+                               
+                            </li>
+                            <li>
+                                
+                                <em class="pic"><img src="/kr/images/tivoli_vv/safety_iacc_slide04.jpg" alt="후측방 접근 경보" /></em>
+                                
+                            </li>
+							<li>
+                                
+                                <em class="pic"><img src="/kr/images/tivoli_vv/safety_iacc_slide05.jpg" alt="사각지대 감지 시스템" /></em>
+                                
+                            </li>
+							
+                            <li>
+                                
+                                <em class="pic"><img src="/kr/images/tivoli_vv/safety_iacc_slide06.jpg" alt="긴급 제동보조 시스템" /></em>
+                                
+                            </li>
+                            <li>
+                                
+                                <em class="pic"><img src="/kr/images/tivoli_vv/safety_iacc_slide07.jpg" alt="차선 유지보조" /></em>
+                                
+                            </li>
+                            <li>
+                                
+                                <em class="pic"><img src="/kr/images/tivoli_vv/safety_iacc_slide08.jpg" alt="스마트 하이빔" /></em>
+                                
+                            </li>
+                            
+                            
+                           
+                        </ul>
+                        <div class="outarrow">
+                            <p><span id="slider-prev"></span><span id="slider-next"></span></p>
+                        </div>
+                        <script>
+                            $('.iaccetcslide ul').bxSlider({
+                                auto: false,
+                                pager: false,
+                                minSlides: 4,
+                                maxSlides: 4,
+                                moveSlides: 1,
+                                slideWidth: 218,
+                                slideMargin: 38,
+                                nextSelector: '.iaccetcslide #slider-next',
+                                prevSelector: '.iaccetcslide #slider-prev',
+                                nextText: 'Next',
+                                prevText: 'Prev',
+                                pause: 5000
+                            });
+                        </script>
+                    </div>
+		        </div>
+		    </article>
+		    <!-- Cruise control 끝 -->
+		    
+		   
+		</section>
+		<!-- TECHNOLOGY 끝 -->
+                <div class="safety_img1"></div>
+                <div class="safety_img2"></div>
+                <div class="safety_img3"></div>
+            </div>
+			<!-- tivoli_section Safety End -->
+			
+			
+			
+			<!-- performance  start -->
+            <div class="tivoli_section" id="performance">
+                <div class="section_title">
+                    <h1 class="rx_h1">
+                        <img src="/kr/images/tivoli_vv/tivoli_h1-5.png" alt="PERFORMANCE" />
+                    </h1>
+                    <div class="line"></div>
+					<img src="/kr/images/tivoli_vv/titledesc_4.png" />
+                </div>
+				 <div class="performance_slide">
+                    <ul class="bxslider">
+                      <!-- <li>
+                        <img src="/kr/images/tivoli_vv/performance_slide2.png" />
+                      </li> -->
+                      <li>
+                        <img src="/kr/images/tivoli_vv/performance_slide1.png" />
+                      </li>
+                    </ul>
+                    <!--<div class="performance_bg"></div>-->
+                </div>
+                <!--<div class="performance_img1"></div>
+               
+                 <div class="performance_img2"></div>
+				
+				<div class="performance_img3"></div> -->
+            </div><!-- tivoli_section Prformance End -->
+			
+			
+			
+			
+			
+			<!-- convenience  start -->
+            <div class="tivoli_section" id="convenience">
+                <div class="section_title">
+                    <h1 class="rx_h1">
+                        <img src="/kr/images/tivoli_vv/tivoli_h1-6.png" alt="CONVENIENCE" />
+                    </h1>
+                    <div class="line"></div>
+					<img src="/kr/images/tivoli_vv/titledesc_5.png" />
+                </div>
+                <div class="convenience_img1"></div>
+				
+				<div class="convenience_slide">
+                    <ul class="bxslider">
+                      <li>
+                        <img src="/kr/images/tivoli_vv/convenience_slide1.jpg" />
+                      </li>
+                      <li>
+                        <img src="/kr/images/tivoli_vv/convenience_slide2.jpg" />
+                      </li>
+					  <li>
+                        <img src="/kr/images/tivoli_vv/convenience_slide3.jpg" />
+                      </li>
+                    </ul>
+                    
+                </div>
+				
+                <div class="convenience_img2"></div>
+            </div>
+			
+			
+				<!-- convenience slide start -->
+            <div class="scroll_slide">
+                <div class="frame frame2">
+                    <ul class= "slidee" >
+                        
+                            
+                              
+                                
+                                  
+                                    <li style="width:640px;">
+                                  
+                                     
+                                <div>
+                                  <img src="/kr/showroom/tivoli/convenience2/__icsFiles/afieldfile/2019/06/02/con_scroll_img1.jpg" alt="" />
+                                  <a href="#" class="scroll_more zoom1">
+                                    <img src="/kr/images/tivoli_vv/scroll_more.png" alt="" />
+                                  </a>
+                                </div>
+                                 
+                                  
+                                
+
+                                
+                                  
+                                     
+                                
+                                  
+                                
+                                
+                                  
+                                
+                                								
+                              
+                            
+                          
+                            
+                              
+                                
+                                  
+                                     
+                                <div>
+                                  <img src="/kr/showroom/tivoli/convenience2/__icsFiles/afieldfile/2019/06/02/con_scroll_img2_1.jpg" alt="" />
+                                  <a href="#" class="scroll_more zoom2">
+                                    <img src="/kr/images/tivoli_vv/scroll_more.png" alt="" />
+                                  </a>
+                                </div>
+                                 
+                                  
+                                    </li>
+                                    <li style="width:640px;">
+                                  
+                                
+
+                                
+                                  
+                                     
+                                
+                                  
+                                
+                                
+                                  
+                                
+                                								
+                              
+                            
+                          
+                            
+                              
+                                
+                                  
+                                     
+                                <div>
+                                  <img src="/kr/showroom/tivoli/convenience2/__icsFiles/afieldfile/2019/06/02/con_scroll_img3.jpg" alt="" />
+                                  <a href="#" class="scroll_more zoom3">
+                                    <img src="/kr/images/tivoli_vv/scroll_more.png" alt="" />
+                                  </a>
+                                </div>
+                                 
+                                  
+                                
+
+                                
+                                  
+                                     
+                                
+                                  
+                                
+                                
+                                  
+                                
+                                								
+                              
+                            
+                          
+                            
+                              
+                                
+                                  
+                                     
+                                <div>
+                                  <img src="/kr/showroom/tivoli/convenience2/__icsFiles/afieldfile/2019/06/02/con_scroll_img5_2.jpg" alt="" />
+                                  <a href="#" class="scroll_more zoom5">
+                                    <img src="/kr/images/tivoli_vv/scroll_more.png" alt="" />
+                                  </a>
+                                </div>
+                                 
+                                  
+                                
+
+                                
+                                  
+                                     
+                                
+                                  
+                                
+                                
+                                  
+                                
+                                								
+                              
+                            
+                          
+                            
+                              
+                                
+                                  
+                                     
+                                <div>
+                                  <img src="/kr/showroom/tivoli/convenience2/__icsFiles/afieldfile/2019/06/02/con_scroll_img6.jpg" alt="" />
+                                  <a href="#" class="scroll_more zoom6">
+                                    <img src="/kr/images/tivoli_vv/scroll_more.png" alt="" />
+                                  </a>
+                                </div>
+                                 
+                                  
+                                
+
+                                
+                                  
+                                     
+                                
+                                  
+                                    </li>
+                                    <li style="width:640px;">
+                                  
+                                
+                                
+                                  
+                                
+                                								
+                              
+                            
+                          
+                            
+                              
+                                
+                                  
+                                     
+                                <div>
+                                  <img src="/kr/showroom/tivoli/convenience2/__icsFiles/afieldfile/2019/06/02/con_scroll_img7_4.jpg" alt="" />
+                                  <a href="#" class="scroll_more zoom7">
+                                    <img src="/kr/images/tivoli_vv/scroll_more.png" alt="" />
+                                  </a>
+                                </div>
+                                 
+                                  
+                                
+
+                                
+                                  
+                                     
+                                
+                                  
+                                
+                                
+                                  
+                                
+                                								
+                              
+                            
+                          
+                            
+                              
+                                
+                                  
+                                     
+                                <div>
+                                  <img src="/kr/showroom/tivoli/convenience2/__icsFiles/afieldfile/2019/06/02/con_scroll_img8_1.jpg" alt="" />
+                                  <a href="#" class="scroll_more zoom8">
+                                    <img src="/kr/images/tivoli_vv/scroll_more.png" alt="" />
+                                  </a>
+                                </div>
+                                 
+                                  
+                                
+
+                                
+                                  
+                                     
+                                
+                                  
+                                
+                                
+                                  
+                                    </li>
+                                    <li style="width:640px;">
+                                  
+                                
+                                								
+                              
+                            
+                          
+                            
+                              
+                                
+                                  
+                                     
+                                <div>
+                                  <img src="/kr/showroom/tivoli/convenience2/__icsFiles/afieldfile/2019/06/02/con_scroll_img9.jpg" alt="" />
+                                  <a href="#" class="scroll_more zoom4">
+                                    <img src="/kr/images/tivoli_vv/scroll_more.png" alt="" />
+                                  </a>
+                                </div>
+                                 
+                                  
+                                
+
+                                
+                                  
+                                    </li>
+                                    <li style="width:640px;">
+                                  
+                                     
+                                
+                                  
+                                
+                                
+                                  
+                                
+                                								
+                              
+                            
+                          
+                            
+                              
+                            
+                          
+                            
+                              
+                            
+                          
+                            
+                              
+                            
+                          
+                            
+                              
+                            
+                          
+                            
+                              
+                            
+                          
+                            
+                              
+                            
+                          
+                            
+                              
+                            
+                          
+                            
+                              
+                            
+                          
+                        </li>
+                    </ul>
+                </div>
+                <div class="scrollbar">
+                    <div class="scrollbar_inner">
+                        <div class="handle"></div>
+                    </div>
+                </div>
+                <div class="con_zoom_pop zoom_pop thumb">
+                    <a href="#" class="zoom_close">
+                        <img src="/kr/images/tivoli_vv/close.png" alt="close" />
+                    </a>
+                    <ul class="bxslider">
+                        
+                          
+                            
+                          
+                        
+                          
+                            
+                          
+                        
+                          
+                            
+                          
+                        
+                          
+                            
+                          
+                        
+                          
+                            
+                          
+                        
+                          
+                            
+                          
+                        
+                          
+                            
+                          
+                        
+                          
+                            
+                          
+                        
+                          
+                            
+                              <li>
+                                <h2>오토클로징</h2>
+                                <span class = "span_newline_conven"></span>
+                                <img src="/kr/showroom/tivoli/convenience2/__icsFiles/afieldfile/2019/06/02/con_1.jpg" />
+                              </li>
+                            
+                          
+                        
+                          
+                            
+                              <li>
+                                <h2>부주의 운전경보 (DAA)</h2>
+                                <span class = "span_newline_conven"></span>
+                                <img src="/kr/showroom/tivoli/convenience2/__icsFiles/afieldfile/2019/06/02/con_2.jpg" />
+                              </li>
+                            
+                          
+                        
+                          
+                            
+                              <li>
+                                <h2>매뉴얼 에어컨</h2>
+                                <span class = "span_newline_conven"></span>
+                                <img src="/kr/showroom/tivoli/convenience2/__icsFiles/afieldfile/2019/06/02/con_3.jpg" />
+                              </li>
+                            
+                          
+                        
+                          
+                            
+                              <li>
+                                <h2>하이패스 룸미러</h2>
+                                <span class = "span_newline_conven"></span>
+                                <img src="/kr/showroom/tivoli/convenience2/__icsFiles/afieldfile/2019/06/02/con_5.jpg" />
+                              </li>
+                            
+                          
+                        
+                          
+                            
+                              <li>
+                                <h2>크루즈컨트롤 시스템</h2>
+                                <span class = "span_newline_conven"></span>
+                                <img src="/kr/showroom/tivoli/convenience2/__icsFiles/afieldfile/2019/06/02/con_6.jpg" />
+                              </li>
+                            
+                          
+                        
+                          
+                            
+                              <li>
+                                <h2>스마트키</h2>
+                                <span class = "span_newline_conven"></span>
+                                <img src="/kr/showroom/tivoli/convenience2/__icsFiles/afieldfile/2019/06/02/con_7.jpg" />
+                              </li>
+                            
+                          
+                        
+                          
+                            
+                              <li>
+                                <h2>레인센싱</h2>
+                                <span class = "span_newline_conven"></span>
+                                <img src="/kr/showroom/tivoli/convenience2/__icsFiles/afieldfile/2019/06/02/con_8.jpg" />
+                              </li>
+                            
+                          
+                        
+                          
+                            
+                              <li>
+                                <h2>세이프티 선루프</h2>
+                                <span class = "span_newline_conven"></span>
+                                <img src="/kr/showroom/tivoli/convenience2/__icsFiles/afieldfile/2019/06/02/con_9.jpg" />
+                              </li>
+                            
+                          
+                        
+                    </ul>
+                </div>
+            </div> <!-- convenience  slide end -->
+			<!-- convenience  end -->
+			
+			
+			
+			<!-- customizing  start -->
+            <div class="tivoli_section" id="customizing">
+                <div class="section_title" style="margin-top:180px;">
+                    <h1 class="rx_h1">
+                        <img src="/kr/images/tivoli_vv/tivoli_h1-8.png" alt="CUSTOMIZING" />
+                    </h1>
+                    <div class="line"></div>
+                </div>
+				
+				<!-- customizing slide start -->
+                <div class="customizing_slide rxt_slide">
+                    <ul class="bxslider">
+                        
+                            
+                                
+                                  <li>
+                                    <div style="background-image: url(/kr/showroom/tivoli/customizing2/__icsFiles/afieldfile/2021/04/16/k201_38.png)"></div>
+                                  </li>
+                            
+                          
+                        
+                            
+                                
+                                  <li>
+                                    <div style="background-image: url(/kr/showroom/tivoli/customizing2/__icsFiles/afieldfile/2020/03/11/cust_17.jpg)"></div>
+                                  </li>
+                            
+                          
+                        
+                            
+                                
+                                  <li>
+                                    <div style="background-image: url(/kr/showroom/tivoli/customizing2/__icsFiles/afieldfile/2020/06/30/cust_15.jpg)"></div>
+                                  </li>
+                            
+                          
+                        
+                            
+                                
+                                  <li>
+                                    <div style="background-image: url(/kr/showroom/tivoli/customizing2/__icsFiles/afieldfile/2020/03/11/cust_14.jpg)"></div>
+                                  </li>
+                            
+                          
+                        
+                            
+                                
+                                  <li>
+                                    <div style="background-image: url(/kr/showroom/tivoli/customizing2/__icsFiles/afieldfile/2020/04/13/cust_13.jpg)"></div>
+                                  </li>
+                            
+                          
+                        
+                            
+                                
+                                  <li>
+                                    <div style="background-image: url(/kr/showroom/tivoli/customizing2/__icsFiles/afieldfile/2021/04/29/tivoli_tivoliair_1.jpg)"></div>
+                                  </li>
+                            
+                          
+                        
+                            
+                                
+                                  <li>
+                                    <div style="background-image: url(/kr/showroom/tivoli/customizing2/__icsFiles/afieldfile/2021/04/29/doorgar_1.jpg)"></div>
+                                  </li>
+                            
+                          
+                        
+                            
+                                
+                                  <li>
+                                    <div style="background-image: url(/kr/showroom/tivoli/customizing2/__icsFiles/afieldfile/2021/04/29/fender_1.jpg)"></div>
+                                  </li>
+                            
+                          
+                        
+                            
+                                
+                                  <li>
+                                    <div style="background-image: url(/kr/showroom/tivoli/customizing2/__icsFiles/afieldfile/2021/04/29/leddoor_1.jpg)"></div>
+                                  </li>
+                            
+                          
+                        
+                            
+                                
+                                  <li>
+                                    <div style="background-image: url(/kr/showroom/tivoli/customizing2/__icsFiles/afieldfile/2019/06/02/cust_7.jpg)"></div>
+                                  </li>
+                            
+                          
+                        
+                            
+                                
+                                  <li>
+                                    <div style="background-image: url(/kr/showroom/tivoli/customizing2/__icsFiles/afieldfile/2021/04/29/side_1.jpg)"></div>
+                                  </li>
+                            
+                          
+                        
+                            
+                                
+                                  <li>
+                                    <div style="background-image: url(/kr/showroom/tivoli/customizing2/__icsFiles/afieldfile/2021/04/29/wing.jpg)"></div>
+                                  </li>
+                            
+                          
+                        
+                            
+                                
+                                  <li>
+                                    <div style="background-image: url(/kr/showroom/tivoli/customizing2/__icsFiles/afieldfile/2021/04/29/skidplate_1.jpg)"></div>
+                                  </li>
+                            
+                          
+                        
+                    </ul>
+                    <p style="margin-top:10px;">※ 상기 이미지는 이해를 돕기 위한 것으로 실제와 일부 차이가 있을 수 있으며 예고 없이 변경 될 수 있습니다.</p>
+                </div>  <!-- customizing slide start -->
+            </div>   
+			<!-- customizing end-->
+			
+			
+			
+			<!-- specification start-->
+            <div class="tivoli_section" id="specification">
+                <div class="section_title">
+                    <h1 class="rx_h1">
+                        <img src="/kr/images/tivoli_vv/tivoli_h1-9.png" alt="SPECIFICATION" />
+                    </h1>
+                    <div class="line"></div>
+                </div>
+                <div class="specftcationConts">
+                    <ul class="spec_tabmenus">
+                        <li><a href="#tab1" class="on"></a></li>
+                        <li><a href="#tab2" class=""></a></li>
+                        <li><a href="#tab3" class=""></a></li>
+                        <li><a href="#tab4" class=""></a></li>
+                    </ul>
+                    <ul class="spec_contsarea">
+                        <li id="tab1" style="display: block;"><img src="/kr/images/tivoli_vv/tab_specCont01.png" alt=""></li>
+                        <li id="tab2" style="display:none;">
+                        <!-- 테이블_TECHNICAL DATA -->
+                        <table class="price_table01 spec_type">
+                        <colgroup>
+                            <col width="30%">
+                            <col width="70%">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>&nbsp;</th>
+                                <th>1.5GDi Turbo 엔진</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="bgc">전장</td>
+                                <td>4,225</td>
+                            </tr>
+                            <tr>
+                                <td class="bgc">전폭(mm)</td>
+                                <td>1,810</td>
+                            </tr>
+                            <tr>
+                                <td class="bgc">전고(mm)</td>
+                                <td>1,615(1,620)</td>
+                            </tr>
+                            <tr>
+                                <td class="bgc">축간거리(mm)</td>
+                                <td>2,600</td>
+                            </tr>
+                            <tr>
+                                <td class="bgc">최저지상고(mm)</td>
+                                <td>178</td>
+                            </tr>
+                            <tr>
+                                <td class="bgc">윤거 전(mm)</td>
+                                <td>1,560</td>
+                            </tr>
+                            <tr>
+                                <td class="bgc">윤거 후(mm)</td>
+                                <td>1,560</td>
+                            </tr>
+                            <tr>
+                                <td class="bgc">엔진형식</td>
+                                <td>e-XGDi150T</td>
+                            </tr>
+                            <tr>
+                                <td class="bgc">배기량(cc)</td>
+                                <td>1,497</td>
+                            </tr>
+                            <tr>
+                                <td class="bgc">최고출력(ps/rpm)</td>
+                                <td>163·5,000~5,500</td>
+                            </tr>
+                            <tr>
+                                <td class="bgc">최대토크(kg.m/rpm)</td>
+                                <td>자동 : 26.5, 수동 28.6/1,500 ~ 4,000</td>
+                            </tr>
+                            <tr>
+                                <td class="bgc">제동장치 전륜·후륜</td>
+                                <td>벤틸레이티드 디스크 / 디스크</td>
+                            </tr>
+                            <tr>
+                                <td class="bgc">현가장치 전·후</td>
+                                <td>맥퍼슨 스트럿 / 토션빔(멀티링크)</td>
+                            </tr>
+                            <tr>
+                                <td class="bgc">연료탱크 용량(ℓ)</td>
+                                <td>50</td>
+                            </tr>
+                            
+                        </tbody>
+                        </table>
+                        <p class="price_normaltxt">*전고 수치의()는 패션 루프랙 적용 기준 *현가장치의 ()값은 AWD적용 기준</p>
+                        <!-- // 테이블_TECHNICAL DATA -->
+                        </li>
+                        <li id="tab3" style="display: none;">
+                        <!--<img src='/kr/img/site/showroom/tab_specCont03.jpg' alt='정부공인 표준연비 및 등급'> -->
+                        <!-- 테이블_정부공인 표준연비 및 등급 -->
+                        <table class="price_table01 spec_type01">
+                        <colgroup><col width="7%"><col width="8%"><col width="10%"><col width="10%"><col width="15%"><col width="10%"><col width="10%"><col width="10%"><col width="10%"><col width="10%"></colgroup>
+                        <thead>
+                        <tr>
+                            <th colspan="2" rowspan="2">
+                                모델
+                            </th>
+                            <th rowspan="2"> 배기량 </th>
+                            <th rowspan="2"> 공차중량 </th>
+                            <th rowspan="2"> 변속기 </th>
+                            <th rowspan="2"> 등급 </th>
+                            <th rowspan="2"> CO2 배출량 </th>
+                            <th colspan="3">정부공인 표준연비</th>
+                          </tr>
+                        <tr>
+                          <th>도심주행 연비</th>
+                          <th>고속도로<br />
+                          주행 연비</th>
+                          <th>복합연비</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th rowspan="3">티볼리<br />가솔린<br />2WD</th>
+                            <th>16인치</th>
+                            <td>1,497c</td>
+                            <td>1,305kg</td>
+                            <td>수동6단</td>
+                            <td>3등급</td>
+                            <td>131g/km</td>
+                            <td>11.5km/ℓ</td>
+                            <td>13.9km/ℓ</td>
+                            <td>12.5km/ℓ</td>
+                        </tr>
+                        <tr>
+                            <th>16인치</th>
+                            <td>1,497c</td>
+                            <td>1,360kg</td>
+                            <td>자동6단</td>
+                            <td>3등급</td>
+                            <td>138g/km</td>
+                            <td>10.8km/ℓ</td>
+                            <td>13.8km/ℓ</td>
+                            <td>12.0km/ℓ</td>
+                        </tr>
+                        <tr>
+                            <th>17,18인치</th>
+                            <td>1,497c </td>
+                            <td>1,360kg </td>
+                            <td>자동6단 </td>
+                            <td>3등급 </td>
+                            <td>140g/km </td>
+                            <td>10.6km/ℓ</td>
+                            <td>13.5km/ℓ</td>
+                            <td>11.8km/ℓ</td>
+                          </tr>
+                          <tr>
+                            <th colspan="2">티볼리 가솔린<br />4WD(18인치)</th>
+                            <td>1,497c</td>
+                            <td>1,470kg</td>
+                            <td>자동6단</td>
+                            <td>4등급</td>
+                            <td>154g/km</td>
+                            <td>9.8km/ℓ</td>
+                            <td>12.3km/ℓ</td>
+                            <td>10.8km/ℓ</td>
+                          </tr>
+                        </tbody>
+                        </table>
+                        
+                        <p class="price_normaltxt">
+                            • 위 연비는 가장낮은 수치를 기준으로 적용<br />
+                            • 위 표준연비는 차량상태 및 운행주건에 따라  실 주행연비와 차이가 있을 수 있습니다.
+                        </p>
+                        
+                      </li>
+                        <li id="tab4" style="display: none;" >
+                        <!--<img src='/kr/img/site/showroom/tab_specCont04.jpg' alt='타이어 소비 효율 등급'> -->
+                        <!-- 테이블_타이어 소비 효율 등급 -->
+                        <table class="price_table01 spec_type01">
+                        <colgroup><col width="20%"><col width="20%"><col width="20%"><col width="20%"><col width="20%"></colgroup>
+                        <thead>
+                        <tr>
+                            <th>
+                                차종
+                            </th>
+                            <th>
+                                타이어 제조사
+                            </th>
+                            <th>
+                                타이어 규격
+                            </th>
+                            <th>
+                                회전저항 등급
+                            </th>
+                            <th>
+                                젖은 노면 제동력 등급
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th rowspan="5">
+                                TIVOLI
+                            </th>
+                            <td>
+                                금호타이어
+                            </td>
+                            <td>
+                                205/65R16
+                            </td>
+                            <td>
+                                3
+                            </td>
+                            <td>
+                                3
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                넥센타이어
+                            </td>
+                            <td>
+                                205/65R16
+                            </td>
+                            <td>
+                                3
+                            </td>
+                            <td>
+                                3
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                금호타이어
+                            </td>
+                            <td>
+                                215/50R18</td>
+                            <td>
+                                3
+                            </td>
+                            <td>
+                                3
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                넥센타이어
+                            </td>
+                            <td>
+                                215/50R18
+                            </td>
+                            <td>
+                                3
+                            </td>
+                            <td>
+                                3
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                한국타이어
+                            </td>
+                            <td>
+                                215/50R18
+                            </td>
+                            <td>
+                                3
+                            </td>
+                            <td>
+                                3
+                            </td>
+                        </tr>
+                        
+                        </tbody>
+                        </table>
+                        <!-- // 테이블_타이어 소비 효율 등급 -->
+                        <p class="price_normaltxt">
+                            • 타이어는 위의 등급관련 요소이외에도 내구성, 안정성, 배수성 등 많은 부분이 고려되어 개발되었음을 참고 하시기 바랍니다.
+                        </p>
+                        <p class="price_normaltxt">
+                            • 회전저항(RRC)이란 단위 주행거리 당 소비되는 에너지를 의미합니다.<br>
+                             ※ 1~5등급까지 5개 등급으로 구분되며, 1등급에 가까울수록 에너지 소비 효율이 좋습니다.
+                        </p>
+                        <p class="price_normaltxt">
+                            • 젖은 노면 제동력(R)이란 젖은 노면에서 타이어의 제동 성능을 의미합니다.<br>
+                             ※ 1~5등급까지 5개 등급으로 구분되며, 1등급에 가까울수록 빗길 등 젖은 노면에서의 제동력이 좋습니다.
+                        </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+			<!--  Specification End -->
+			
+			
+			
+			<!-- price start-->
+            <div class="tivoli_section" id="price">
+                <div class="section_title">
+                    <h1 class="rx_h1">
+                        <img src="/kr/images/tivoli_vv/tivoli_h1-10.png" alt="PRICE" />
+                    </h1>
+                    <div class="line"></div>
+                </div>
+                
+                <a href="/kr/showroom/tivoli/car_file/__icsFiles/afieldfile/2022/07/28/tivoli_price_2208.pdf" class="btn_price_down" target="_blank">가격표 다운로드</a>
+                
+                <div class="price_img">
+				</div></div>
+            </div><!--  Price End -->
+			
+			
+			
+			
+			
+			
+            <div class="tivoli_section" id="guide">
+                <div class="section_title">
+                    <h1 class="rx_h1">
+                        <img src="/kr/images/tivoli_vv/tivoli_h1-11.png" alt="구매가이드" />
+                    </h1>
+                    <div class="line"></div>
+                </div>
+                <div class="car_subcon">
+                    <div class="sub_menu">
+                        <p><img src="/kr/img/site/showroom/sale_img1.jpg" alt="" /></p>
+                        <h4>구매 서비스</h4>
+                        <p class="sub">고객님이 원하시는 구매 관한 정보</p>
+                        <ul>
+                            <li><a href="http://www.smotor.com/kr/purchase/pur_con/this_month/index.html">이달의 구매조건</a></li>
+                            <li><a href="http://www.smotor.com/kr/purchase/service/s_est/index.html">견적서비스</a></li>
+                            <li><a href="http://www.smotor.com/kr/purchase/service/pricelist/index.html   ">전차종 가격표</a></li>
+                            <li><a href="http://www.smotor.com/kr/purchase/con_req/catal/index.html">카탈로그 신청</a></li>
+                        </ul>
+                        <p class="icon_link">
+                            <a href="http://www.smotor.com/kr/purchase/index.html"><img src="/kr/img/site/showroom/icon_more.jpg"></a>
+                        </p>
+                    </div>
+                    <div class="sub_menu" style="margin:0 26px;">
+                        <p><img src="/kr/img/site/showroom/sale_img2.jpg" alt="" /></p>
+                        <h4>시승 서비스</h4>
+                        <p class="sub">고객님이 원하시는 장소로 방문 후 시승</p>
+                        <ul>
+                            <li><a href="http://www.smotor.com/kr/purchase/drive/index.html">시승기</a></li>
+                            <li><a href="http://www.smotor.com/kr/purchase/td_center/newcar/index.html">시승 신청</a></li>
+                            <li style="background:none;"> &nbsp;</li>
+                            <li style="background:none;"> &nbsp;</li>
+                        </ul>
+                        <p class="icon_link">
+                            <a href="http://www.smotor.com/kr/purchase/td_center/newcar/index.html"><img src="/kr/img/site/showroom/icon_more.jpg"></a>
+                        </p>
+                    </div>
+                    <div class="sub_menu">
+                        <p><img src="/kr/img/site/showroom/sale_img3.jpg" alt="" /></p>
+                        <h4>안내 서비스</h4>
+                        <p class="sub">온라인과 오프라인의 서비스 안내</p>
+                        <ul>
+                            <li><a href="http://www.smotor.com/kr/service/service/remember/index.html  ">서비스 안내</a></li>
+                            <li><a href="http://www.smotor.com/kr/service/service/moblie/index.html">모바일 안내</a></li>
+                            <li style="background:none;"> &nbsp;</li>
+                            <li style="background:none;"> &nbsp;</li>
+                        </ul>
+                        <p class="icon_link">
+                            <a href="http://www.smotor.com/kr/service/index.html"><img src="/kr/img/site/showroom/icon_more.jpg"></a>
+                        </p>
+                    </div>
+                </div>
+            </div><!-- tivoli_section Guide End -->
+            <div class="side_quick">
+                <div class="side_q_list">
+                    <a href="http://www.smotor.com/kr/service/service/repair/smartcare_repair/index.html" target="_blank"><img src="/kr/img/side_quick1.png" alt="보증연장서비스"></a>
+                    <a href="http://www.smotor.com/kr/purchase/pur_con/this_month/offers/index.html" target="_blank"><img src="/kr/img/side_quick2.png" alt="구매조건"></a>
+                    <a href="http://www.smotor.com/kr/purchase/service/s_est/index.html" target="_blank"><img src="/kr/img/side_quick3.png" alt="견적서비스"></a>
+                    <a href="http://www.smotor.com/kr/purchase/deal_guide/news/index.html" target="_blank"><img src="/kr/img/side_quick4.png" alt="대리점안내"></a>
+                    <a href="http://www.smotor.com/kr/purchase/con_req/catal/index.html" target="_blank"><img src="/kr/img/side_quick5.png" alt="카탈로그 신청"></a>
+                </div>
+                <div class="side_q_bottom">
+                    <a href="http://www.anycardirect.com/CR_MyAnycarWeb/overture_index.jsp?OTK=A1012AF0001" target="_blank"><img src="/kr/img/side_quick_samsung.png" alt="삼성화재에서 제공하는 보험료 조회 서비스"></a>
+                    <a href="#;" class="quick_go_top"><img src="/kr/img/side_quick_top.png" alt="최상단으로 이동"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- container End -->
+    <div class="snsWrap">
+	<div class="snsBox">
+		<p class="supportLink">
+			<a href="http://www.smotor.com/kr/purchase/index.html"><img src="/site/img/p_support.png" alt="구매지원"/></a>
+			<a href="http://www.smotor.com/kr/purchase/pur_con/this_month/index.html"><img src="/site/img/p_support1.png" alt="구매조건"/></a>
+			<a href="http://www.smotor.com/kr/purchase/service/s_est/index.html"><img src="/site/img/p_support2.png" alt="견적서비스"/></a>
+			<a href="http://www.smotor.com/kr/purchase/service/pricelist/index.html"><img src="/site/img/p_support3.png" alt="차량 가격표"/></a>
+			<a href="http://www.smotor.com/kr/purchase/deal_guide/exhibition/index.html"><img src="/kr/img/site/p_support4.png" alt="판매 네트워크 안내"/></a>			
+		</p>
+		<p class="supportLink">
+			<a href="http://www.smotor.com/kr/service/index.html"><img src="/site/img/remember_s.png" alt="리맴버서비스"/></a>
+			<a href="http://www.smotor.com/kr/service/service/remember/index.html"><img src="/site/img/remember_s1.png" alt="서비스안내"/></a>
+			<a href="http://www.smotor.com/kr/service/network/ser_net/index.html"><img src="/site/img/remember_s2.png" alt="서비스 네트워크 조회"/></a>
+			<a href="http://www.smotor.com/kr/service/mycar/reservation/index.html"><img src="/site/img/remember_s3.png" alt="정비예약"/></a>
+			<a href="http://www.smotor.com/kr/service/manage/handl_ex/index.html"><img src="/site/img/remember_s4.png" alt="취급설명서"/></a>
+		</p>
+		<div class="quickLink">
+			<h3><img src="/kr/img/site/titSnsQuick.gif" alt="" /></h3>
+			<ul>
+				<li><a href="http://twitter.com/SsangyongStory" target="_blank"><img src="/kr/img/site/btnTwitter.gif" alt="" /></a></li>
+				<li><a href="https://www.facebook.com/Ssangyongstory" target="_blank"><img src="/kr/img/site/btnFacebook.gif" alt="" /></a></li>
+				<li><a href="http://www.youtube.com/user/SsangyongMotor?feature=watch" target="_blank"><img src="/kr/img/site/btnYoutube.gif" alt="" /></a></li>
+				<li><a href="http://allways.smotor.com" target="_blank"><img src="/kr/img/site/btnBlog.gif" alt="" /></a></li>
+			</ul>
+		</div>
+	</div><!-- snsBox ends -->
+</div><!-- snsWrap ends -->
+
+    <div class="footerWrap">
+	<div class="footerCon">
+		<ul>
+			<li><a style="color:#fff;">고객센터 080-500-5582 </a>|</li>
+			<li><a href="http://www.smotor.com/kr/member/privacy/index.html" style="color:#fff; font-weight:bolder; font-size:15px;">개인정보처리방침</a>|</li>
+			<li><a href="http://www.smotor.com/kr/member/mailno/index.html">이메일 집단수집거부</a>|</li>
+			<li><a href="http://www.smotor.com/kr/member/sitemap/index.html">전체메뉴 보기</a>|</li>
+			<li><a href="http://audit.smotor.com/index.html">사이버감사실</a>|</li>
+			<li><a href="http://www.smotor.com/en/index.html" target="_blank">GLOBAL</a>|</li>
+			<li><a href="http://www.smotor.com/kr/member/iipoap/index.html" target="_blank"  style="color:#fff">영상정보처리기기 운영·관리 방침</a></li>
+
+		</ul>
+		<p>COPYRIGHT 2012 SSANGYONG MOTOR COMPANY. ALL RIGHT RESERVED.</p>
+	</div>
+</div><!-- footerWrap ends -->
+</div>
+
+
+<div class="youtube_popup">
+
+    <a href="#" class="ytb_close">
+        <img src="/kr/images/tivoli_vv/close.png" alt="close" />
+    </a>
+</div>
+<div class="bg"></div>
+<!-- I-ON CONTENT LOG ANALYTICS SERVER TRACKING SCRIPT VER 5.6 FOR kr.smotor.com -->
+<!-- COPYRIGHT (C) 1998-2009 I-ON Communications Co.,Ltd. All rights reserved. -->
+<script type="text/javascript">
+     if (document.location.protocol == 'https:') {          document.location.href = document.location.href.replace('https:', 'http:');     }
+</script>
+<script type='text/javascript' id='iclas_sma'>
+    iclasAddLoadEvent(iclasLoad);
+    function iclasAddLoadEvent(func) {
+        var oldonload = window.onload;
+        if(typeof window.onload != 'function') { window.onload = func; }
+        else { window.onload = function() { oldonload(); func(); } }
+    }
+
+    function iclasLoad() {
+        try {
+            var serviceId = 'sma';
+            var serverUrl = window.atob('aHR0cDovL2xvZy5zbW90b3IuY29tL2ljbGFz');
+            console.log(serverUrl);
+            var head = document.getElementsByTagName('head')[0];
+            var script = document.createElement('script');
+            var loaded = false;
+            script.type = 'text/javascript'; script.charset = 'UTF-8';
+            script.onreadystatechange = function () {
+                if (this.readyState == 'loaded' || this.readyState == 'complete') {
+                    if (loaded) { return; } loaded = true; iclas.execute(serviceId, serverUrl);
+                }
+            }
+            script.onload = function () { iclas.execute(serviceId, serverUrl); }
+            script.id = 'js_' + serviceId;
+            script.src = serverUrl + '/tracker/tracker.js';
+            head.appendChild(script);
+        } catch(e) {}
+    }
+</script>
+<!-- END OF ICLAS TRACKING SCRIPT --> 
+</body>
+</html>
